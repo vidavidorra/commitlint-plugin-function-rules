@@ -1,0 +1,9 @@
+.git/
+.vscode
+build/
+dist/
+coverage/
+LICENSE.md
+CHANGELOG.md
+modules/
+node_modules/

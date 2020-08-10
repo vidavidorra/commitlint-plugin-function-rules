@@ -1,0 +1,46 @@
+{
+  "name": "repo-template",
+  "version": "1.0.16",
+  "description": "A template for creating new repositories.",
+  "private": true,
+  "scripts": {
+    "lint": "run-p format:check lint-es",
+    "lint:fix": "run-s format lint-es:fix",
+    "lint-es": "eslint --ext .ts,.tsx,.js,.jsx,.json .",
+    "lint-es:file": "eslint --ext .ts,.tsx,.js,.jsx,.json",
+    "lint-es:fix": "eslint --ext .ts,.tsx,.js,.jsx,.json --fix .",
+    "lint-es:file:fix": "eslint --ext .ts,.tsx,.js,.jsx,.json --fix",
+    "format": "prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,vue,ts,css,less,scss,html,htm,json,md,markdown,yml,yaml}\"",
+    "format:check": "prettier --ignore-path .eslintignore --check \"**/*.{js,jsx,vue,ts,css,less,scss,html,htm,json,md,markdown,yml,yaml}\"",
+    "format:file": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidavidorra/repo-template.git"
+  },
+  "author": "Jeroen de Bruijn",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/vidavidorra/repo-template/issues"
+  },
+  "homepage": "https://github.com/vidavidorra/repo-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "9.1.1",
+    "@commitlint/config-conventional": "9.1.1",
+    "@semantic-release/changelog": "5.0.1",
+    "@semantic-release/git": "9.0.0",
+    "@typescript-eslint/eslint-plugin": "3.8.0",
+    "@typescript-eslint/parser": "3.8.0",
+    "eslint": "7.6.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-plugin-json": "2.1.2",
+    "eslint-plugin-prettier": "3.1.4",
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "npm-run-all": "4.1.5",
+    "prettier": "2.0.5",
+    "semantic-release": "17.1.1",
+    "typescript": "3.9.7"
+  }
+}

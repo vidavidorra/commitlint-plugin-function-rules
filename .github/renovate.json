@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "config:base",
+    ":masterIssue",
+    ":pinDependencies",
+    ":timezone(Europe/Amsterdam)"
+  ],
+  "ignorePresets": [":prHourlyLimit2"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "masterIssueApproval": true
+  },
+  "major": {
+    "stabilityDays": 3
+  },
+  "packageRules": [
+    {
+      "description": "Auto-merge devDependencies",
+      "depTypeList": ["devDependencies"],
+      "updateTypes": ["pin", "digest", "patch", "minor"],
+      "automerge": true
+    }
+  ],
+  "prCreation": "not-pending"
+}
