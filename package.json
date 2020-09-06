@@ -26,8 +26,8 @@
   "homepage": "https://github.com/vidavidorra/repo-template#readme",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "9.1.1",
-    "@commitlint/config-conventional": "9.1.1",
+    "@commitlint/cli": "9.1.2",
+    "@commitlint/config-conventional": "9.1.2",
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@typescript-eslint/eslint-plugin": "3.8.0",
