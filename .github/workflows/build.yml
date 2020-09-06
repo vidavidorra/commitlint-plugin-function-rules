@@ -23,7 +23,7 @@ jobs:
         run: npm run lint-es
       - name: Check formatting
         run: npm run format:check
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
