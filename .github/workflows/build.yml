@@ -91,6 +91,8 @@ jobs:
           node-version: 12
       - name: Install project
         run: npm ci --ignore-scripts
+      - name: Build
+        run: npm run build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_GITHUB_TOKEN }}
