@@ -1,96 +1,32 @@
-# repo-template
+# Commitlint plugin function rules
 
-A template for creating new repositories.
+Commitlint plugin to define rules as functions.
 
 <a name="toc"></a>
 
 ## Table of contents
 
 - [Badges](#badges)
-- [Setup](#setup)
-- [Checklist](#checklist)
 - [License](#license)
+
+<a name="badges"></a>
 
 ## Badges
 
-| Badge                                                                                                                                                                                                                          | Description          | Service              |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------- | -------------------- |
-| <a href="https://github.com/prettier/prettier#readme"><img alt="code style" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>                                                           | Code style           | Prettier             |
-| <a href="https://conventionalcommits.org"><img alt="Conventional Commits: 1.0.0" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square"></a>                                             | Commit style         | Conventional Commits |
-| <a href="https://renovatebot.com"><img alt="Renovate enabled" src="https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square"></a>                                                                       | Dependencies         | Renovate             |
-| <a href="https://github.com/vidavidorra/repo-template/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/repo-template/Lint%20commit%20messages?style=flat-square"></a> | Lint commit messages | GitHub Actions       |
-| <a href="https://github.com/vidavidorra/repo-template/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/repo-template/Lint?style=flat-square"></a>                     | Lint                 | GitHub Actions       |
+| Badge                                                                                                                                                                                                                                                                | Description          | Service              |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | -------------------- |
+| <a href="https://github.com/prettier/prettier#readme"><img alt="code style" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>                                                                                                 | Code style           | Prettier             |
+| <a href="https://conventionalcommits.org"><img alt="Conventional Commits: 1.0.0" src="https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square"></a>                                                                                   | Commit style         | Conventional Commits |
+| <a href="https://github.com/vidavidorra/commitlint-plugin-function-rules/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Lint%20commit%20messages?style=flat-square"></a> | Lint commit messages | GitHub Actions       |
+| <a href="https://github.com/vidavidorra/commitlint-plugin-function-rules/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Lint?style=flat-square"></a>                     | Lint                 | GitHub Actions       |
 
-## Setup
-
-After a new repository using this template has been created, make the .
-
-1. Remove files containing content of the template.
-   ```shell
-   $ rm CHANGELOG.md
-   ```
-2. Create a temporary checklist and replace the readme with the example.
-   ```shell
-   $ mv README.md CHECKLIST.md
-   $ mv README.example.md README.md
-   ```
-3. Go through the [checklist](#checklist).
-4. Remove the temporary checklist.
-   ```shell
-   $ rm CHECKLIST.md
-   ```
-
-## Checklist
-
-Go through this checklist after creating your repository. It should only take a couple of minutes.
-
-### README.md
-
-- [ ] Is the `<title>` field correct?
-- [ ] Is the `<description>` field correct?
-- [ ] Are the `<repo-name>` fields correct?
-- [ ] Is the date (range) of the license correct?
-
-### `package.json`
-
-- [ ] Is the `name` field correct?
-- [ ] Is the `description` field correct?
-- [ ] Is the `version` field correct?  
-       Use `npm version 0.1.0 --git-tag-version=false` to set the version, `0.1.0` in this example.
-- [ ] Is the `author` field correct?
-- [ ] Have you added `keywords`?
-- [ ] Are the `repository.url`, `bugs` and `homepage` links correct?
-
-### `package-lock.json`
-
-- [ ] Is the `name` field correct?
-- [ ] Is the `version` field correct?
-
-### Renovate
-
-- [ ] Is the repository added to [GitHub Renovate](https://github.com/vidavidorra/github-renovate)'s [list of repositories](https://github.com/vidavidorra/github-renovate/blob/v1.0.2/src/renovate-config.js#L19)?
-- [ ] Is the Renovate GitHub App enabled on this repository?  
-       Settings can be found in the _Installed GitHub Apps_ secion of the GitHub _Organization settings_ or in the _Applications_ section of the GitHub _Personal settings_. Add the repository to the list of selected repositories.
-
-### GitHub settings
-
-- [ ] Is only the _Allow squash merging_ merge option selected?
-- [ ] Is _Automatically delete head branches_ enabled?
-- [ ] Are _Branch protection rules_ added on the `master` branch?  
-       Protection without any of the checkboxes checked.
-
-### Language setup
-
-### Typescript
-
-- [ ] Is there a `tsconfig.json` file?  
-       See [vidavidorra/next-standard-version](https://github.com/vidavidorra/next-standard-version) for an example of the file.
+<a name="license"></a>
 
 ## License
 
 This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/gpl.html).
 
-Copyright © 2019-2020 Jeroen de Bruijn
+Copyright © 2020 Jeroen de Bruijn
 
 <details><summary>License details.</summary>
 <p>

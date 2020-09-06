@@ -1,7 +1,7 @@
 {
-  "name": "repo-template",
-  "version": "1.0.16",
-  "description": "A template for creating new repositories.",
+  "name": "commitlint-plugin-function-rules",
+  "version": "1.0.0",
+  "description": "Commitlint plugin to define rules as functions.",
   "private": true,
   "scripts": {
     "lint": "run-p format:check lint-es",
@@ -16,14 +16,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vidavidorra/repo-template.git"
+    "url": "git+https://github.com/vidavidorra/commitlint-plugin-function-rules.git"
   },
+  "keywords": [
+    "commitlint",
+    "commitlintplugin",
+    "plugin",
+    "rules"
+  ],
   "author": "Jeroen de Bruijn",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/vidavidorra/repo-template/issues"
+    "url": "https://github.com/vidavidorra/commitlint-plugin-function-rules/issues"
   },
-  "homepage": "https://github.com/vidavidorra/repo-template#readme",
+  "homepage": "https://github.com/vidavidorra/commitlint-plugin-function-rules#readme",
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "9.1.1",
