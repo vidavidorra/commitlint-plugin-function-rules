@@ -24,7 +24,6 @@ jobs:
       - name: Check formatting
         run: npm run format:check
   build-and-test:
-    need: lint
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -38,10 +37,22 @@ jobs:
         run: npm ci --ignore-scripts
       - name: Build
         run: npm run build
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.2
+      - name: Setup node
+        uses: actions/setup-node@v2.1.1
+        with:
+          node-version: 12
+      - name: Install project
+        run: npm ci --ignore-scripts
       - name: Test
         run: npm run test:ci
   code-coverage:
-    need: build
+    needs: [lint, build, test]
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -61,7 +72,7 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage/cobertura-coverage.xml
   release:
-    needs: [build, code-coverage]
+    needs: [lint, build, test, code-coverage]
     runs-on: ubuntu-latest
     # GitHub API requests can easy take a couple of seconds and the release can
     # make lots of API requests when a release has a lot of commits. If every
