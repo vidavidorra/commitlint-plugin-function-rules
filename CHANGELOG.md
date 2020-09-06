@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.0...v1.0.1) (2020-09-06)
+
+
+### Continuous Integration
+
+* **release:** build before release to include dist ([4ff37ce](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/4ff37ce50866651bb4404d5de8e0552f385d5b5a))
+
 ## 1.0.0 (2020-09-06)
 
 
