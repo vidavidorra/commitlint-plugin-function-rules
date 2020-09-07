@@ -1,3 +1,10 @@
+### [1.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.1...v1.0.2) (2020-09-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency husky to v4.3.0 ([#8](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/8)) ([58c8659](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/58c86597a3c6cef6207506f0bc257b560bad405e))
+
 ### [1.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.0...v1.0.1) (2020-09-06)
 
 
