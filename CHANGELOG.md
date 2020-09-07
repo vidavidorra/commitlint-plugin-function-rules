@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.2...v1.0.3) (2020-09-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** update typescript-eslint monorepo to v4.1.0 ([#9](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/9)) ([6758fe4](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6758fe4dccd5e6c889455af7d6d0c4c6add82b94))
+
 ### [1.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.1...v1.0.2) (2020-09-07)
 
 
