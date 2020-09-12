@@ -1,3 +1,10 @@
+### [1.0.4](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.3...v1.0.4) (2020-09-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v7.9.0 ([#10](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/10)) ([28605c7](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/28605c7ce675e2d7a9df976fa5dcf62a80cc0de4))
+
 ### [1.0.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.2...v1.0.3) (2020-09-07)
 
 
