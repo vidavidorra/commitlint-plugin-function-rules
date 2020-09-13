@@ -1,3 +1,10 @@
+### [1.0.5](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.4...v1.0.5) (2020-09-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint-plugin-jest to v24.0.1 ([#11](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/11)) ([916fe40](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/916fe40a9dc98d4ff7a38c6284f153d2cd7f9a95))
+
 ### [1.0.4](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.3...v1.0.4) (2020-09-12)
 
 
