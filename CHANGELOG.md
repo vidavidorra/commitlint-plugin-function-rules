@@ -1,3 +1,16 @@
+### [1.0.6](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.5...v1.0.6) (2020-09-14)
+
+
+### Miscellaneous Chores
+
+* run tests on staged files using lint-staged ([2df8c0e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/2df8c0e4eb4f3a80d32ff36f617f39108081b735))
+
+
+### Continuous Integration
+
+* **deps:** separate dev, peer and dependencies in Renovate commits ([40d4358](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/40d43587f8c614fb577fcb02bdd62c496049a0f9))
+* **release:** release on peer and regular dependencies ([b7d445a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b7d445a5761a4320a7952e1f22346dd21c10ff8b))
+
 ### [1.0.5](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.4...v1.0.5) (2020-09-13)
 
 
