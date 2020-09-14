@@ -15,10 +15,18 @@
   },
   "packageRules": [
     {
-      "description": "Auto-merge devDependencies",
-      "depTypeList": ["devDependencies"],
+      "description": "Auto-merge dependencies",
+      "depTypeList": ["devDependencies", "dependencies", "peerDependencies"],
       "updateTypes": ["pin", "digest", "patch", "minor"],
       "automerge": true
+    },
+    {
+      "depTypeList": ["devDependencies"],
+      "semanticCommitScope": "dev-deps"
+    },
+    {
+      "depTypeList": ["peerDependencies"],
+      "semanticCommitScope": "peer-deps"
     }
   ],
   "prCreation": "not-pending"
