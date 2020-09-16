@@ -1,6 +1,6 @@
-# Commitlint plugin function rules
+# commitlint plugin function rules
 
-Commitlint plugin to define rules as functions.
+commitlint plugin to define rules as functions.
 
 <a name="toc"></a>
 
