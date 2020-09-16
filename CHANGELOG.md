@@ -1,3 +1,26 @@
+### [1.0.8](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.7...v1.0.8) (2020-09-16)
+
+
+### Bug Fixes
+
+* unpin peer dependency and set to major version 9 range ([766f6f0](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/766f6f02f471ec4b90f728856d86340a5875cd8c))
+
+
+### Miscellaneous Chores
+
+* name commitlint with lowercase ([d4f8c32](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/d4f8c327008fff952d1737ab6282a3af4c059b03))
+* **dev-deps:** update dependency prettier to v2.1.2 ([#14](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/14)) ([c8c24f9](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c8c24f902b0ea834bc492eaf1e43f89d04b61805))
+
+
+### Tests
+
+* add end-to-end test ([3de942c](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3de942c8c3750a4b2d4dd69febb29a7c24385bc3))
+
+
+### Continuous Integration
+
+* check build for type errors when linting ([dec4be8](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/dec4be82de18af68fc886b98880ad4ac507719ff))
+
 ### [1.0.7](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.6...v1.0.7) (2020-09-14)
 
 
