@@ -1,3 +1,10 @@
+### [1.0.9](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.8...v1.0.9) (2020-09-17)
+
+
+### Continuous Integration
+
+* **deps:** separate [@commitlint](https://github.com/commitlint) peer-, dev- and dependencies ([0c42187](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0c421872968bd8c48106b02a2cbea9074483e458))
+
 ### [1.0.8](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.7...v1.0.8) (2020-09-16)
 
 
