@@ -3,6 +3,7 @@
     "config:base",
     ":masterIssue",
     ":pinDependencies",
+    ":semanticCommitTypeAll(chore)",
     ":timezone(Europe/Amsterdam)"
   ],
   "ignorePresets": [":prHourlyLimit2"],
@@ -25,8 +26,22 @@
       "semanticCommitScope": "dev-deps"
     },
     {
+      "packagePatterns": ["^@commitlint/"],
+      "depTypeList": ["devDependencies"],
+      "groupName": "devDependencies commitlint monorepo",
+      "semanticCommitScope": "dev-deps"
+    },
+    {
+      "packagePatterns": ["^@commitlint/"],
       "depTypeList": ["peerDependencies"],
+      "groupName": "peerDependencies commitlint monorepo",
       "semanticCommitScope": "peer-deps"
+    },
+    {
+      "packagePatterns": ["^@commitlint/"],
+      "depTypeList": ["dependencies"],
+      "groupName": "dependencies commitlint monorepo",
+      "semanticCommitScope": "deps"
     }
   ],
   "prCreation": "not-pending"
