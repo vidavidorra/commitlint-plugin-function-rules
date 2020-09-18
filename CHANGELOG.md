@@ -1,3 +1,10 @@
+### [1.0.11](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.10...v1.0.11) (2020-09-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @commitlint/types to v11 ([#17](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/17)) ([6ea1174](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6ea1174605c6e7a8e457ccd3ed23cf4a00a17dd8))
+
 ### [1.0.10](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.9...v1.0.10) (2020-09-18)
 
 
