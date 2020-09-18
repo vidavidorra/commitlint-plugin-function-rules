@@ -2,10 +2,10 @@
   "name": "commitlint-plugin-function-rules",
   "version": "1.0.11",
   "description": "commitlint plugin to define rules as functions.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.js",
+  "main": "dist/src.index.js",
+  "types": "dist/src/index.d.js",
   "files": [
-    "dist/**/!(*.test).{js,d.ts}"
+    "dist/src/**/!(*.test).{js,d.ts}"
   ],
   "scripts": {
     "lint": "run-p format:check build:check lint-es",
