@@ -1,3 +1,20 @@
+### [1.0.12](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.11...v1.0.12) (2020-09-18)
+
+
+### Bug Fixes
+
+* **package:** point `main`, `types` and `files` to the correct paths ([df10abf](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/df10abfd07418122088f6af29f49eca5a84501dc))
+
+
+### Miscellaneous Chores
+
+* **dev-deps:** update dependency lint-staged to v10.4.0 ([#15](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/15)) ([c02a5eb](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c02a5ebfd8f514a2c027152f23ebcf0f93471376))
+
+
+### Tests
+
+* **end-to-end:** separate load test ([75943e5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/75943e5004a4865f2d650d62ca38f5fdc0768e25))
+
 ### [1.0.11](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.10...v1.0.11) (2020-09-18)
 
 
