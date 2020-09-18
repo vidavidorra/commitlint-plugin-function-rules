@@ -1,3 +1,12 @@
+### [1.0.10](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.9...v1.0.10) (2020-09-18)
+
+
+### Miscellaneous Chores
+
+* **dev-deps:** update dependency semantic-release to v17.1.2 ([#16](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/16)) ([b084107](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b084107cac8266796a3c0af238fb4c4df31d39d9))
+* **dev-deps:** update devdependencies commitlint monorepo to v11 ([#18](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/18)) ([17783c7](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/17783c7689e6be3b8433b40eaa76ed0117481a1d))
+* **peer-deps:** update dependency @commitlint/lint to v11 ([#19](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/19)) ([67e2b96](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/67e2b96d6866096eb32a0385f686a8dd65a98a71))
+
 ### [1.0.9](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.8...v1.0.9) (2020-09-17)
 
 
