@@ -1,3 +1,15 @@
+### [1.0.13](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.12...v1.0.13) (2020-09-19)
+
+
+### Miscellaneous Chores
+
+* **dev-deps:** update dependency typescript to v4.0.3 ([#20](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/20)) ([c380d0a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c380d0a2ba1836f41b6600dff6e50476d05a5424))
+
+
+### Tests
+
+* **end-to-end:** test agains commitlint v9.x, v10.x and v11.x ([9d7715d](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9d7715d9355483901906582d0cd002b2ffa3b00a))
+
 ### [1.0.12](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.11...v1.0.12) (2020-09-18)
 
 
