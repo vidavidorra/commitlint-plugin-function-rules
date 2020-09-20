@@ -1,3 +1,15 @@
+### [1.1.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.2...v1.1.3) (2020-09-20)
+
+
+### Continuous Integration
+
+* **renovate:** disable for aliased packages with final version ([e216ab2](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/e216ab287c3917503a2c5ae25b6a795b330b7643))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency ts-jest to v26.4.0 ([#23](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/23)) ([09290b7](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/09290b7074ef44c4b5c6cddf91625379ac7b4104))
+
 ### [1.1.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.1...v1.1.2) (2020-09-20)
 
 
