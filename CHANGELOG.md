@@ -1,3 +1,16 @@
+### [1.1.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.0...v1.1.1) (2020-09-20)
+
+
+### Continuous Integration
+
+* **deps:** disable auto-merge for peer dependencies ([f9b4991](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/f9b499170c65ed323ec27a07ef54dcd8668cf51e))
+* **deps:** use Renovate default commit scope for `devDependencies` and `dependencies` ([b4d864c](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b4d864c7d76f407f66840631bb10d7591e35845f))
+
+
+### Miscellaneous Chores
+
+* **dev-deps:** update dependency eslint-plugin-jest to v24.0.2 ([#21](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/21)) ([897e419](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/897e419c976e22b5e20a486ab96728d4a89368bc))
+
 ## [1.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.13...v1.1.0) (2020-09-20)
 
 
