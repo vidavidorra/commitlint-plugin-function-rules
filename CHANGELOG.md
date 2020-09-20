@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.13...v1.1.0) (2020-09-20)
+
+
+### Features
+
+* add support for @commitlint/lint v10.x ([493ad35](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/493ad3507a4c7c9c5a1e48ae0fc066a47215fb5b))
+
 ### [1.0.13](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.0.12...v1.0.13) (2020-09-19)
 
 
