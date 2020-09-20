@@ -1,3 +1,10 @@
+### [1.1.5](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.4...v1.1.5) (2020-09-20)
+
+
+### Continuous Integration
+
+* **release:** add npm tarball to GitHub publish ([dc1db2b](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/dc1db2b99b6486de6536823fc494ed681034ab82))
+
 ### [1.1.4](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.3...v1.1.4) (2020-09-20)
 
 
