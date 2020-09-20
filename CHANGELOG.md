@@ -1,3 +1,10 @@
+### [1.1.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.1...v1.1.2) (2020-09-20)
+
+
+### Continuous Integration
+
+* **commits:** add commitlint configuration to allow longer dependency commits ([d36c8ab](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/d36c8ab6fddbb4971cc725846d8b81e232d0d0b4))
+
 ### [1.1.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.0...v1.1.1) (2020-09-20)
 
 
