@@ -1,3 +1,10 @@
+### [1.1.4](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.3...v1.1.4) (2020-09-20)
+
+
+### Continuous Integration
+
+* **release:** disable release on chore commits ([834bd70](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/834bd70a655d16c1210e2a83b1750c5a6c62049a))
+
 ### [1.1.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.2...v1.1.3) (2020-09-20)
 
 
