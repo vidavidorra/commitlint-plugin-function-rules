@@ -35,6 +35,12 @@
       "packagePatterns": ["^@commitlint/"],
       "depTypeList": ["dependencies"],
       "groupName": "dependencies commitlint monorepo"
+    },
+    {
+      "description": "Disable for aliased packages with final version",
+      "packagePatterns": ["^@commitlint/(lint|load)\\-(9|10)\\.x"],
+      "depTypeList": ["devDependencies"],
+      "enabled": false
     }
   ],
   "prCreation": "not-pending"
