@@ -17,7 +17,7 @@
   "packageRules": [
     {
       "description": "Auto-merge dependencies",
-      "depTypeList": ["devDependencies", "dependencies", "peerDependencies"],
+      "depTypeList": ["devDependencies", "dependencies"],
       "updateTypes": ["pin", "digest", "patch", "minor"],
       "automerge": true
     },
