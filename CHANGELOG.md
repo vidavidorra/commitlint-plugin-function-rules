@@ -1,3 +1,10 @@
+### [1.1.7](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.6...v1.1.7) (2020-09-24)
+
+
+### Continuous Integration
+
+* test and build with Node v14 ([3586da5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3586da5210356776efa3b485246e6a6f461f88a0))
+
 ### [1.1.6](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.5...v1.1.6) (2020-09-24)
 
 
