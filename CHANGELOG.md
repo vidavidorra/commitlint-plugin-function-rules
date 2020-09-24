@@ -1,3 +1,21 @@
+### [1.1.6](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.5...v1.1.6) (2020-09-24)
+
+
+### Bug Fixes
+
+* **package:** correct `main` path ([90d2bde](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/90d2bdeb212163966bea48200a51d99bebd649a4))
+
+
+### Miscellaneous Chores
+
+* remove code from semantic-release in badges ([45b4df2](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/45b4df2e9955f07b6c96b558c1c40ecff97936dd))
+* **deps:** update typescript-eslint monorepo to v4.2.0 ([#24](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/24)) ([474380e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/474380e565c4c4e45181f35937e66551765d2e40))
+
+
+### Documentation
+
+* correct description of CI build ([824ba4e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/824ba4e99fe2b3e4c51fffa8316f033bbe610031))
+
 ### [1.1.5](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.4...v1.1.5) (2020-09-20)
 
 
