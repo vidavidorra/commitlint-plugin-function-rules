@@ -9,8 +9,6 @@ commitlint plugin to define rules as functions.
 - [Badges](#badges)
 - [License](#license)
 
-<a name="badges"></a>
-
 ## Badges
 
 | Badge                                                                                                                                                                                                                                                                | Description          | Service              |
@@ -22,8 +20,7 @@ commitlint plugin to define rules as functions.
 | <a href="https://github.com/vidavidorra/commitlint-plugin-function-rules/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Lint%20commit%20messages?style=flat-square"></a> | Lint commit messages | GitHub Actions       |
 | <a href="https://github.com/vidavidorra/commitlint-plugin-function-rules/actions"><img alt="GitHub workflow status" src="https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Build?style=flat-square"></a>                    | Build                | GitHub Actions       |
 | <a href="https://codecov.io/gh/vidavidorra/commitlint-plugin-function-rules"><img alt="Code coverage" src="https://img.shields.io/codecov/c/github/vidavidorra/commitlint-plugin-function-rules?style=flat-square"></a>                                              | Code coverage        | Codecov              |
-
-<a name="license"></a>
+| <a href="https://www.npmjs.com/package/commitlint-plugin-function-rules"><img alt="npm version" src="https://img.shields.io/npm/v/commitlint-plugin-function-rules?style=flat-square"></a>                                                                           | npm version          | npm                  |
 
 ## License
 
