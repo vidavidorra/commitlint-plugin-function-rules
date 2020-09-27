@@ -1,3 +1,15 @@
+### [1.1.11](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.10...v1.1.11) (2020-09-27)
+
+
+### Bug Fixes
+
+* use `Plugin` from the commitlint types ([33bab71](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/33bab717e33c9a5f94a093d8a479b46a42818de9))
+
+
+### Build System
+
+* add scripts to clean and build with clean first ([8782e3a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/8782e3ae0816a6d1c54dfeb2c0e727ed5c82dbfb))
+
 ### [1.1.10](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.9...v1.1.10) (2020-09-27)
 
 
