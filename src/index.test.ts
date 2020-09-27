@@ -1,4 +1,4 @@
-import * as plugin from './';
+import * as plugin from '.';
 import { describe, expect, it } from '@jest/globals';
 import rules from './rules';
 
