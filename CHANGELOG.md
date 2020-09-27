@@ -1,3 +1,16 @@
+### [1.1.8](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.7...v1.1.8) (2020-09-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency eslint to v7.10.0 ([#27](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/27)) ([03069ae](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/03069ae49b63af29b7edbfb7646723b08431be64))
+* **deps:** update dependency eslint-config-prettier to v6.12.0 ([#26](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/26)) ([7e0cdf0](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7e0cdf0df67628b4f0cec9e97fe73557635eebbe))
+
+
+### Documentation
+
+* add npm version badge ([a0fff5f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/a0fff5fb4b888e2604b2b28a3032e9d4bdbe5fd4))
+
 ### [1.1.7](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.6...v1.1.7) (2020-09-24)
 
 
