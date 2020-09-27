@@ -19,6 +19,8 @@
     "format:file": "prettier --write",
     "build": "tsc",
     "build:check": "tsc --noEmit",
+    "build:clean-first": "run-s clean build",
+    "clean": "rm -rf ./dist",
     "test": "jest",
     "test:ci": "jest --ci --verbose",
     "test:staged": "jest --passWithNoTests --findRelatedTests $(git diff --staged --name-only)"
