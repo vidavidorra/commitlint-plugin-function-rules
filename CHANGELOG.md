@@ -1,3 +1,10 @@
+### [1.1.9](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.8...v1.1.9) (2020-09-27)
+
+
+### Bug Fixes
+
+* **package:** correct 'types' of package ([9df7d4e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9df7d4e6cccffee8fa8c32a0b30a4dce9818cd04))
+
 ### [1.1.8](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.7...v1.1.8) (2020-09-27)
 
 
