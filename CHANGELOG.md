@@ -1,3 +1,10 @@
+### [1.1.10](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.9...v1.1.10) (2020-09-27)
+
+
+### Continuous Integration
+
+* trigger release ([82c563b](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/82c563b89c1d43324e26cd241ee0e79d0baff0b8))
+
 ### [1.1.9](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.8...v1.1.9) (2020-09-27)
 
 
