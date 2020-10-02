@@ -1,3 +1,21 @@
+### [1.1.12](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.11...v1.1.12) (2020-10-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency actions/checkout to v2.3.3 ([#29](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/29)) ([55725a9](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/55725a94b456f77f610b1d2ad0f030aa1dfe25b8))
+* **deps:** update dependency actions/setup-node to v2.1.2 ([#34](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/34)) ([69a34eb](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/69a34ebbd5881cb333ffc002267ca23a804d9eef))
+* **deps:** update dependency codecov/codecov-action to v1.0.13 ([#30](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/30)) ([f5825c0](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/f5825c0ac0b64e0cf844fa24e7438fb8722122b7))
+* **deps:** update dependency ts-jest to v26.4.1 ([#33](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/33)) ([0fec27f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0fec27faff6f5a3044a1f29b56880778c99cb413))
+* **deps:** update dependency wagoid/commitlint-github-action to v2.1.0 ([#31](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/31)) ([7f09b55](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7f09b557213bb5dc241e85d35fa8128654981117))
+* **deps:** update typescript-eslint monorepo to v4.3.0 ([#32](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/32)) ([fad566f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/fad566f7d89666be7998fa0f02b7b3275cb7151e))
+
+
+### Continuous Integration
+
+* **renovate:** fix accidental removal of `pinDependencies` ([8e950fd](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/8e950fd8cd7682374f76f67cd3aba576d18d9a00))
+* **renovate:** migrate config to Renovate > v21.28.0 ([60d89b5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/60d89b5ccd914bf96386d78c5b0d2d9e97ed1e98))
+
 ### [1.1.11](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.10...v1.1.11) (2020-09-27)
 
 
