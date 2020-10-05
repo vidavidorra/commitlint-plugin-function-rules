@@ -3,13 +3,6 @@ import { beforeAll, describe, expect, it } from '@jest/globals';
 import { RuleOutcome } from '@commitlint/types';
 
 describe('commitlint plugin function rules', () => {
-  /**
-   * Due to a but in the `describe.each` type, it is not possible to use it with
-   * `@jest/globals`. See https://github.com/facebook/jest/issues/10447 for
-   * the specific issue. As a workaround the TypeScript error is ignored.
-   */
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-expect-error: TS2349: This expression is not callable.
   describe.each(['9.x', '10.x', '11.x'])(
     'commitlint v%s',
     (version: string) => {
