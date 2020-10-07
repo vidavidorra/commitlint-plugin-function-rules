@@ -1,7 +1,7 @@
-#####################################################
-# macOS                                             #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# macOS
+# Source: https://www.gitignore.io
+################################################################################
 # General
 .DS_Store
 .AppleDouble
@@ -30,10 +30,10 @@ Temporary Items
 .apdisk
 
 
-#####################################################
-# Linux                                             #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# Linux
+# Source: https://www.gitignore.io
+################################################################################
 *~
 
 # temporary files which can be created if a process still has a handle open of a deleted file
@@ -49,10 +49,10 @@ Temporary Items
 .nfs*
 
 
-#####################################################
-# Windows                                           #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# Windows
+# Source: https://www.gitignore.io
+################################################################################
 # Windows thumbnail cache files
 Thumbs.db
 Thumbs.db:encryptable
@@ -79,16 +79,17 @@ $RECYCLE.BIN/
 *.lnk
 
 
-#####################################################
-# dotenv                                            #
-#####################################################
+################################################################################
+# dotenv
+# Source: https://www.gitignore.io
+################################################################################
 .env
 
 
-#####################################################
-# CMake                                             #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# CMake
+# Source: https://www.gitignore.io
+################################################################################
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -106,10 +107,10 @@ _deps
 *-prefix/
 
 
-#####################################################
-# Node                                              #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# Node
+# Source: https://www.gitignore.io
+################################################################################
 # Logs
 logs
 *.log
@@ -165,6 +166,12 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
 # Optional REPL history
 .node_repl_history
 
@@ -177,18 +184,24 @@ typings/
 # dotenv environment variables file
 .env
 .env.test
+.env*.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
+.parcel-cache
 
-# next.js build output
+# Next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt.js build / generate output
 .nuxt
+dist
 
-# react / gatsby 
-public/
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and not Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
 
 # vuepress build output
 .vuepress/dist
@@ -202,14 +215,17 @@ public/
 # DynamoDB Local files
 .dynamodb/
 
-# Typescript output directories
-dist/
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
 
 
-#####################################################
-# C                                                 #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# C
+# Source: https://www.gitignore.io
+################################################################################
 # Prerequisites
 *.d
 
@@ -264,10 +280,10 @@ Mkfile.old
 dkms.conf
 
 
-#####################################################
-# C++                                               #
-# Source: https://www.gitignore.io                  #
-#####################################################
+################################################################################
+# C++
+# Source: https://www.gitignore.io
+################################################################################
 # Prerequisites
 *.d
 
@@ -300,3 +316,40 @@ dkms.conf
 *.exe
 *.out
 *.app
+
+
+################################################################################
+# Go
+# Source: https://www.gitignore.io
+################################################################################
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+### Go Patch ###
+/vendor/
+/Godeps/
+
+
+################################################################################
+# Visual Studio Code
+# Source: https://www.gitignore.io
+################################################################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
