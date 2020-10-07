@@ -1,3 +1,19 @@
+### [1.1.14](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.13...v1.1.14) (2020-10-07)
+
+
+### Miscellaneous Chores
+
+* update gitignore to vidavidorra/repo-template@v1.1.0 ([31eff0f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/31eff0fa8d1bf27ffe278e8f81c9afef748d1231))
+* **deps:** update dependency eslint-plugin-jest to v24.1.0 ([#37](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/37)) ([fa87b40](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/fa87b401d84b7c49cf34792e6fb1b64010a72e24))
+* **deps:** update jest monorepo to v26.5.0 ([#35](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/35)) ([9e1d3c5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9e1d3c5fbaec2a253124c8742f89983445f473a6))
+* **deps:** update jest monorepo to v26.5.2 ([#38](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/38)) ([70c2b95](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/70c2b95d364259c0bb79f6a213dedbb599213aca))
+* **deps:** update typescript-eslint monorepo to v4.4.0 ([#36](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/36)) ([fa5d660](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/fa5d66081169b5f06590e5a771ddb3943be45c87))
+
+
+### Continuous Integration
+
+* separate build check from lint and check build pre-commit ([30c5dc4](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/30c5dc4a895383a04e058cda807cdab741ca2904))
+
 ### [1.1.13](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.12...v1.1.13) (2020-10-02)
 
 
