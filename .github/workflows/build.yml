@@ -20,9 +20,7 @@ jobs:
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Lint
-        run: npm run lint-es
-      - name: Check formatting
-        run: npm run format:check
+        run: npm run lint
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5

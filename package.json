@@ -8,7 +8,7 @@
     "dist/src/**/!(*.test).{js,d.ts}"
   ],
   "scripts": {
-    "lint": "run-p format:check build:check lint-es",
+    "lint": "run-p format:check lint-es",
     "lint:fix": "run-s format lint-es:fix",
     "lint-es": "eslint --ext .ts,.tsx,.js,.jsx,.json .",
     "lint-es:file": "eslint --ext .ts,.tsx,.js,.jsx,.json",
