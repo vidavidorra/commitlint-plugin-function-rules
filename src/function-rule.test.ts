@@ -87,7 +87,6 @@ describe('functionRule', (): void => {
 
   it("throws an error when 'value' is 'not an function'", () => {
     expect(() => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-expect-error: TS2345: Argument of type ... is not assignable to parameter of type ...
       functionRule(commit, when, 'not a function!');
     }).toThrow();
