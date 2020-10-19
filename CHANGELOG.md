@@ -1,3 +1,25 @@
+### [1.1.15](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.14...v1.1.15) (2020-10-19)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency codecov/codecov-action to v1.0.14 ([#47](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/47)) ([b49bf86](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b49bf86e001dc7ec8be440183bbc4174fe27210d))
+* **deps:** update dependency eslint to v7.11.0 ([#39](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/39)) ([b10ada5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b10ada5b09c693b5b75a48e193be0a29244580da))
+* **deps:** update dependency eslint-config-prettier to v6.13.0 ([#45](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/45)) ([7c4f61a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7c4f61aacca467f1650b9f92a218aa00887a68a3))
+* **deps:** update dependency lint-staged to v10.4.1 ([#44](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/44)) ([9a1558b](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9a1558b04a206ce61c904d30b67044c55085fab7))
+* **deps:** update dependency lint-staged to v10.4.2 ([#46](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/46)) ([cb8452e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/cb8452e330bb3007ee0f46b701d816d4e246ab67))
+* **deps:** update dependency semantic-release to v17.2.0 ([#41](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/41)) ([27e5984](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/27e5984aefbd9b269b3f97754637dca0a0095fb0))
+* **deps:** update dependency semantic-release to v17.2.1 ([#42](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/42)) ([fcdffe6](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/fcdffe627875738f9e4e0d9e1081478904df24ce))
+* **deps:** update jest monorepo to v26.5.3 ([#40](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/40)) ([cbcc133](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/cbcc133937600041d86a16993aa59785ca487118))
+* **deps:** update jest monorepo to v26.6.0 ([#48](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/48)) ([bd376df](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/bd376df7665a8891ad6ccbc224a5b5f3d3dde4bd))
+* **deps:** update typescript-eslint monorepo to v4.4.1 ([#43](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/43)) ([8f23778](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/8f23778cb6903bd1afc9ae0fa2fcd76b0700884f))
+* remove ESLint disable before `[@ts-expect-error](https://github.com/ts-expect-error)` comment ([22a995f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/22a995fb23efc582ef0d12da2be016683625b869))
+
+
+### Documentation
+
+* add documentation with my new readme style ([c457afd](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c457afd554c8b8d1e15bd01af16480761b4edee0))
+
 ### [1.1.14](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.13...v1.1.14) (2020-10-07)
 
 
