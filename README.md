@@ -43,10 +43,10 @@ Use this plugin in your project's commitlint configuration by specifying it as i
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   plugins: ['commitlint-plugin-function-rules'],
-  rules: [
-    'header-max-length': [0],  // level: disabled
+  rules: {
+    'header-max-length': [0], // level: disabled
     'function-rules/header-max-length': [
-      2,  // level: error
+      2, // level: error
       'always',
       (parsed) => {
         if (parsed.type === 'chore' && parsed.header.length < 20) {
@@ -55,7 +55,7 @@ module.exports = {
         return [false, 'chore header must not be longer than 120 characters'];
       },
     ],
-  ]
+  },
 };
 ```
 
