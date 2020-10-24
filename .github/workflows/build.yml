@@ -24,13 +24,17 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [10, 12, 14, 15]
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.3
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: 14
+          node-version: ${{ matrix.node }}
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Build
@@ -38,13 +42,17 @@ jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    strategy:
+      fail-fast: false
+      matrix:
+        node: [10, 12, 14, 15]
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.3
       - name: Setup node
         uses: actions/setup-node@v2.1.2
         with:
-          node-version: 14
+          node-version: ${{ matrix.node }}
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Test
