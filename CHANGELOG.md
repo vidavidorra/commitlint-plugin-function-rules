@@ -1,3 +1,10 @@
+### [1.1.18](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.17...v1.1.18) (2020-10-24)
+
+
+### Continuous Integration
+
+* set test name with Node.js version in build workflow ([bb06e2e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/bb06e2ec1a56b5c307a083dfd6c60c827e70395c))
+
 ### [1.1.17](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.16...v1.1.17) (2020-10-24)
 
 
