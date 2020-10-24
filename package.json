@@ -1,6 +1,6 @@
 {
   "name": "commitlint-plugin-function-rules",
-  "version": "1.1.16",
+  "version": "1.1.17",
   "description": "commitlint plugin to define rules as functions.",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
