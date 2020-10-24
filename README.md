@@ -11,7 +11,7 @@
 
 [![npm version](https://img.shields.io/npm/v/commitlint-plugin-function-rules?logo=npm&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
 [![npm downloads](https://img.shields.io/npm/dm/commitlint-plugin-function-rules?logo=npm&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
-[![Node.js version support](https://img.shields.io/node/v/commitlint-plugin-function-rules?logo=node.js&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
+[![Node.js version support](https://img.shields.io/node/v/commitlint-plugin-function-rules?logo=node.js&style=flat-square)](https://nodejs.org/en/about/releases/)
 [![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![Code coverage](https://img.shields.io/codecov/c/github/vidavidorra/commitlint-plugin-function-rules?logo=codecov&style=flat-square)](https://codecov.io/gh/vidavidorra/commitlint-plugin-function-rules)
