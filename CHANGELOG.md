@@ -1,3 +1,11 @@
+### [1.1.19](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.18...v1.1.19) (2020-10-24)
+
+
+### Documentation
+
+* add badge for supported Node.js version ([3098f03](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3098f031c959e7a379435f8415df796c2167ad13))
+* link Node.js badge to Node.js releases page ([3871927](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3871927a7d6b59577d0f2f9e8e0b85b6fa798af5))
+
 ### [1.1.18](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.17...v1.1.18) (2020-10-24)
 
 
