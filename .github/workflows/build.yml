@@ -22,6 +22,7 @@ jobs:
       - name: Lint
         run: npm run lint
   build:
+    name: Build (Node.js v${{ matrix.node }})
     runs-on: ubuntu-latest
     timeout-minutes: 5
     strategy:
@@ -40,6 +41,7 @@ jobs:
       - name: Build
         run: npm run build
   test:
+    name: Test (Node.js v${{ matrix.node }})
     runs-on: ubuntu-latest
     timeout-minutes: 5
     strategy:
