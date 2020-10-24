@@ -11,10 +11,11 @@
 
 [![npm version](https://img.shields.io/npm/v/commitlint-plugin-function-rules?logo=npm&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
 [![npm downloads](https://img.shields.io/npm/dm/commitlint-plugin-function-rules?logo=npm&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
-[![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen.svg?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
+[![Node.js version support](https://img.shields.io/node/v/commitlint-plugin-function-rules?logo=node.js&style=flat-square)](https://www.npmjs.com/package/commitlint-plugin-function-rules)
+[![Renovate enabled](https://img.shields.io/badge/Renovate-enabled-brightgreen?logo=renovatebot&logoColor&style=flat-square)](https://renovatebot.com)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079?style=flat-square)](https://github.com/semantic-release/semantic-release)
 [![Code coverage](https://img.shields.io/codecov/c/github/vidavidorra/commitlint-plugin-function-rules?logo=codecov&style=flat-square)](https://codecov.io/gh/vidavidorra/commitlint-plugin-function-rules)
-[![License](https://img.shields.io/github/license/vidavidorra/commitlint-plugin-function-rules.svg?style=flat-square)](LICENSE.md)
+[![License](https://img.shields.io/github/license/vidavidorra/commitlint-plugin-function-rules?style=flat-square)](LICENSE.md)
 
 <a name="toc"></a>
 
@@ -69,9 +70,9 @@ Please give this project a star ⭐ if you like it and consider becoming a [spon
 
 Refer to the [contributing guide](https://github.com/vidavidorra/.github/CONTRIBUTING.md) detailed information about other contributions, like pull requests.
 
-[![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=flat-square)](https://conventionalcommits.org)
-[![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4.svg?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
-[![Linting](https://img.shields.io/badge/linting-ESLint-lightgrey.svg?logo=eslint&style=flat-square)](https://eslint.org)
+[![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow?style=flat-square)](https://conventionalcommits.org)
+[![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
+[![Linting](https://img.shields.io/badge/linting-ESLint-lightgrey?logo=eslint&style=flat-square)](https://eslint.org)
 [![Lint commit messages](https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Lint%20commit%20messages?logo=github&label=Lint%20commit%20messages&style=flat-square)](https://github.com/vidavidorra/commitlint-plugin-function-rules/actions)
 [![Build](https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Build?logo=github&label=Build&style=flat-square)](https://github.com/vidavidorra/commitlint-plugin-function-rules/actions)
 
