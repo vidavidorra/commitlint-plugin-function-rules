@@ -1,3 +1,10 @@
+### [1.1.20](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.19...v1.1.20) (2020-10-25)
+
+
+### Documentation
+
+* fix contributing guide link ([9cdabda](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9cdabda5242ea2c5a6955967a0b356c2596a924e))
+
 ### [1.1.19](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.18...v1.1.19) (2020-10-24)
 
 
