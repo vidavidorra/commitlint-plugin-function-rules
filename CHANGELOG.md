@@ -1,3 +1,13 @@
+### [1.1.22](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.21...v1.1.22) (2021-02-13)
+
+### Continuous Integration
+
+- **renovate:** use shared configuration from `vidavidorra/.github` ([2dd5710](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/2dd57106fcd59c2126ce37498af6955cbdefbea8))
+
+### Documentation
+
+- add 2021 to license ([b57d23e](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/b57d23e025d918790c59203e495bc5d13a517ff1))
+
 ### [1.1.21](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.20...v1.1.21) (2021-02-13)
 
 ### Continuous Integration
