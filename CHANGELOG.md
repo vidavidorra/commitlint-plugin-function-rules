@@ -1,3 +1,14 @@
+### [1.1.21](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.20...v1.1.21) (2021-02-13)
+
+### Continuous Integration
+
+- remove `chore` commit type from changelog (generation) ([8b658c6](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/8b658c638940e03828a76e06da5852c87e4dfa64))
+- **release:** format changelog during release ([90611dd](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/90611dd29d72c93d089f04d1c167ecc45a82ff17))
+
+### Build System
+
+- set `esModuleInterop` to `true` to fix `@commitlint/types` import ([5bc52ea](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/5bc52eab6aff64d2481e3bf7383d599ec7647e4b))
+
 ### [1.1.20](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.19...v1.1.20) (2020-10-25)
 
 ### Documentation
