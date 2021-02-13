@@ -1,47 +1,12 @@
 {
-  "extends": [
-    "config:base",
-    ":dependencyDashboard",
-    ":pinDependencies",
-    ":timezone(Europe/Amsterdam)"
-  ],
-  "ignorePresets": [":prHourlyLimit2"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "dependencyDashboardApproval": true
-  },
-  "major": {
-    "stabilityDays": 3
-  },
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["github>vidavidorra/.github"],
   "packageRules": [
     {
-      "description": "Auto-merge dependencies",
-      "depTypeList": ["devDependencies", "dependencies"],
-      "updateTypes": ["pin", "digest", "patch", "minor"],
-      "automerge": true
-    },
-    {
-      "packagePatterns": ["^@commitlint/"],
-      "depTypeList": ["devDependencies"],
-      "groupName": "devDependencies commitlint monorepo"
-    },
-    {
-      "packagePatterns": ["^@commitlint/"],
-      "depTypeList": ["peerDependencies"],
-      "groupName": "peerDependencies commitlint monorepo",
-      "semanticCommitScope": "peer-deps"
-    },
-    {
-      "packagePatterns": ["^@commitlint/"],
-      "depTypeList": ["dependencies"],
-      "groupName": "dependencies commitlint monorepo"
-    },
-    {
-      "description": "Disable for aliased packages with final version",
+      "description": "Disable updates for aliased @commitlint packages with a final version",
       "packagePatterns": ["^@commitlint/(lint|load)\\-(9|10)\\.x"],
       "depTypeList": ["devDependencies"],
       "enabled": false
     }
-  ],
-  "prCreation": "not-pending"
+  ]
 }
