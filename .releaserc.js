@@ -18,6 +18,12 @@ module.exports = {
     ],
     '@semantic-release/release-notes-generator',
     '@semantic-release/changelog',
+    [
+      '@semantic-release/exec',
+      {
+        prepareCmd: 'npm run format:file CHANGELOG.md',
+      },
+    ],
     ['@semantic-release/npm', { tarballDir: 'dist' }],
     '@semantic-release/git',
     [
