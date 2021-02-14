@@ -1,3 +1,9 @@
+### [1.1.23](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.22...v1.1.23) (2021-02-14)
+
+### Build System
+
+- remove `postinstall` script from the published package ([7898ead](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7898ead1facccfcfe217a2e3ea0313c954d9c405)), closes [#142](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/142)
+
 ### [1.1.22](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.21...v1.1.22) (2021-02-13)
 
 ### Continuous Integration
