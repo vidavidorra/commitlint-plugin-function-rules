@@ -1,3 +1,9 @@
+### [1.3.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.0...v1.3.1) (2021-02-24)
+
+### Bug Fixes
+
+- **deps:** specify lower peer dependency range as v9.1.2 ([a9f08a5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/a9f08a5b17b51c355e2093f7bcf11617969e2445)), closes [#147](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/147)
+
 ## [1.3.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.2.0...v1.3.0) (2021-02-24)
 
 ### Features
