@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.24...v1.2.0) (2021-02-24)
+
+### Features
+
+- **rules:** add `body-full-stop` rule ([93ec5b8](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/93ec5b8364c3e9a0474d96d2c735f0af55707ad2))
+
 ### [1.1.24](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.23...v1.1.24) (2021-02-24)
 
 ### Continuous Integration
