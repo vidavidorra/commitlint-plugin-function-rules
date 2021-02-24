@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.2.0...v1.3.0) (2021-02-24)
+
+### Features
+
+- **deps:** update dependency @commitlint/lint to v12 ([9be4bf9](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9be4bf9d81c5026aa9922a162422e179da14229e))
+
 ## [1.2.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.24...v1.2.0) (2021-02-24)
 
 ### Features
