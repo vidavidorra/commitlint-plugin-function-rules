@@ -3,10 +3,17 @@
   "extends": ["github>vidavidorra/.github"],
   "packageRules": [
     {
-      "description": "Disable updates for aliased @commitlint packages with a final version",
+      "description": "Disable updates for aliased commitlint packages with a final version",
       "packagePatterns": ["^@commitlint/(lint|load)\\-(9|10)\\.x"],
       "depTypeList": ["devDependencies"],
       "enabled": false
+    },
+    {
+      "description": "Group commitlint peer dependencies as feat commit",
+      "packagePatterns": ["^@commitlint/"],
+      "depTypeList": ["peerDependencies"],
+      "groupName": "peerDependencies commitlint monorepo",
+      "semanticCommitType": "feat"
     }
   ]
 }
