@@ -1,3 +1,9 @@
+### [1.1.24](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.23...v1.1.24) (2021-02-24)
+
+### Continuous Integration
+
+- **renovate:** group commitlint peer dependencies ([9b5253c](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/9b5253c831057a4ab95cf001b32050a847e5c063))
+
 ### [1.1.23](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.1.22...v1.1.23) (2021-02-14)
 
 ### Build System
