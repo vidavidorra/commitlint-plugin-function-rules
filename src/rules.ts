@@ -4,6 +4,7 @@ import functionRule from './function-rule';
 const rules: Plugin['rules'] = {
   'function-rules/body-case': functionRule as Rule<unknown>,
   'function-rules/body-empty': functionRule as Rule<unknown>,
+  'function-rules/body-full-stop': functionRule as Rule<unknown>,
   'function-rules/body-leading-blank': functionRule as Rule<unknown>,
   'function-rules/body-max-length': functionRule as Rule<unknown>,
   'function-rules/body-max-line-length': functionRule as Rule<unknown>,
