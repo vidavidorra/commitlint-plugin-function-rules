@@ -67,7 +67,6 @@ config.overrides = [
     files: ['**/*.ts', '**/*.tsx'],
     extends: addToDefaultExtends(
       'plugin:@typescript-eslint/recommended',
-      'prettier/@typescript-eslint',
       'plugin:jest/style',
     ),
     parser: '@typescript-eslint/parser',
