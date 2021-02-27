@@ -1,3 +1,13 @@
+### [1.3.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.1...v1.3.2) (2021-02-27)
+
+### Bug Fixes
+
+- move @commitlint/types dependency to dev dependencies ([cbec26a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/cbec26ac8e4090e68d4786cfaa8e19c96483992e)), closes [#150](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/150)
+
+### Styles
+
+- add ESLint ignore file to enable linting of dotfiles ([69b7675](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/69b767587d29883ae5613bf9eef6f10b55397aa1))
+
 ### [1.3.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.0...v1.3.1) (2021-02-24)
 
 ### Bug Fixes
