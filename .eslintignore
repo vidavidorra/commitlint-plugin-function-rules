@@ -1,9 +1,10 @@
 .git/
 .vscode
-build/
-dist/
-coverage/
-LICENSE.md
-CHANGELOG.md
-modules/
-node_modules/
+/build/
+/dist/
+/coverage/
+/LICENSE.md
+/modules/
+/node_modules/
+/worktrees/
+!.*
