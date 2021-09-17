@@ -27,6 +27,7 @@ const rules: Plugin['rules'] = {
   'function-rules/signed-off-by': functionRule as Rule<unknown>,
   'function-rules/subject-case': functionRule as Rule<unknown>,
   'function-rules/subject-empty': functionRule as Rule<unknown>,
+  'function-rules/subject-exclamation-mark': functionRule as Rule<unknown>,
   'function-rules/subject-full-stop': functionRule as Rule<unknown>,
   'function-rules/subject-max-length': functionRule as Rule<unknown>,
   'function-rules/subject-min-length': functionRule as Rule<unknown>,
