@@ -1,3 +1,27 @@
+## [1.4.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.2...v1.4.0) (2021-09-17)
+
+### ⚠ BREAKING CHANGES
+
+- drop support for node 10
+
+### Features
+
+- add support for commitlint v13 ([fc435bb](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/fc435bb94f7e2ec817bdfac714dc33cc05b51f77))
+- **rules:** add `subject-exclamation-mark` rule for commitlint v13 ([3893fc4](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3893fc4ad75d755fe4a91841479c849812749721))
+- **rules:** add `trailer-exists` rule for commitlint v13 ([829d2c6](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/829d2c667951a02b43ce3a7a9824b75c5504c8a1))
+
+### Tests
+
+- add tests for commitlint v13 ([e95b254](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/e95b254cfcd7bee3bb3b9b719682d3386060e6dc))
+
+### Continuous Integration
+
+- **renovate:** disable for commitlint v12 final version ([7b648d8](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7b648d84d3dfccfc0cb90ceee23aaa3816c20407))
+
+### Build System
+
+- drop support for node 10 ([6c05e9a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6c05e9a485e056f8d4da531dbb465c4fa51b9daa))
+
 ### [1.3.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.1...v1.3.2) (2021-02-27)
 
 ### Bug Fixes
