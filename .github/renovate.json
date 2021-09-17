@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "description": "Disable updates for aliased commitlint packages with a final version",
-      "packagePatterns": ["^@commitlint/(lint|load)\\-(9|10|11)\\.x"],
+      "packagePatterns": ["^@commitlint/(lint|load)\\-(9|10|11|12)\\.x"],
       "depTypeList": ["devDependencies"],
       "enabled": false
     },
