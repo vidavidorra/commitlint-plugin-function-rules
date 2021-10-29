@@ -13,10 +13,10 @@ describe('commitlint plugin function rules', () => {
 
       beforeAll(async () => {
         load = await (await import(`@commitlint/load-${version}`)).default;
-        expect(load).not.toBeUndefined();
+        expect(load).toBeDefined();
 
         lint = await (await import(`@commitlint/lint-${version}`)).default;
-        expect(lint).not.toBeUndefined();
+        expect(lint).toBeDefined();
       });
 
       it('@commitlint/load can load the plugin', async () => {
