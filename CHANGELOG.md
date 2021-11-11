@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.4.0...v1.5.0) (2021-11-11)
+
+### Features
+
+- add support for commitlint v14 ([3c5acf5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3c5acf58a1e714eb634476c8964d57a7dc44c8fa))
+
 ## [1.4.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.3.2...v1.4.0) (2021-09-17)
 
 ### ⚠ BREAKING CHANGES
