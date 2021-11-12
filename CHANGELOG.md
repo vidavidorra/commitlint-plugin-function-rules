@@ -1,3 +1,9 @@
+### [1.5.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.5.0...v1.5.1) (2021-11-12)
+
+### Continuous Integration
+
+- **renovate:** disable for commitlint v13 final version ([7c23695](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7c236954ecc33286cb9a1b1596871d5da4d1b30d))
+
 ## [1.5.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.4.0...v1.5.0) (2021-11-11)
 
 ### Features
