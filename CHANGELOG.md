@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.5.1...v1.6.0) (2021-12-26)
+
+### Features
+
+- add support for commitlint v15 and v16 ([#178](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/178)) ([324946f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/324946f166b5a9e6f3b14234cf71a78a62f3efde))
+
 ### [1.5.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.5.0...v1.5.1) (2021-11-12)
 
 ### Continuous Integration
