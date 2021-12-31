@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.0
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # renovate: tag=v2.5.0
+        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # renovate: tag=v2.5.1
         with:
           node-version: 14
       - name: Install project
@@ -33,7 +33,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.0
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # renovate: tag=v2.5.0
+        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # renovate: tag=v2.5.1
         with:
           node-version: ${{ matrix.node }}
       - name: Install project
@@ -52,7 +52,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.0
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # renovate: tag=v2.5.0
+        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # renovate: tag=v2.5.1
         with:
           node-version: ${{ matrix.node }}
       - name: Install project
@@ -67,7 +67,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2.4.0
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # renovate: tag=v2.5.0
+        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # renovate: tag=v2.5.1
         with:
           node-version: 14
       - name: Install project
@@ -94,7 +94,7 @@ jobs:
           # Make sure the release step uses its own credentials.
           persist-credentials: false
       - name: Setup node
-        uses: actions/setup-node@04c56d2f954f1e4c69436aa54cfef261a018f458 # renovate: tag=v2.5.0
+        uses: actions/setup-node@1f8c6b94b26d0feae1e387ca63ccbdc44d27b561 # renovate: tag=v2.5.1
         with:
           node-version: 14
       - name: Install project
