@@ -1,3 +1,23 @@
+### [1.6.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.0...v1.6.1) (2022-04-17)
+
+### Bug Fixes
+
+- **function-rule:** return success if the function rule is `undefined` ([82047c3](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/82047c36d3e197ba815e5e04c10d17a20de7544a))
+
+### Tests
+
+- use AVA for testing instead of Jest ([3c4a469](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3c4a46940c5a6f868edf5ed815e1f7d4843e3fff))
+
+### Code Refactoring
+
+- **function-rule:** fail fast by checking potential failures and quick returns first ([c303b72](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c303b729c6dd1fa217dd51ec0e4cf563a7fdc769))
+- **rules:** remove `Rule<unknown>` cast ([8e09a33](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/8e09a330f28b2e2a208ac339368324f980d999c9)), closes [conventional-changelog/commitlint#2146](https://github.com/conventional-changelog/commitlint/issues/2146)
+
+### Continuous Integration
+
+- remove build check from pre-commit check as it is already covered by the test ([84e415f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/84e415fb20d275d058995a266554ceb7897725ef))
+- use `npm test` script for CI tests ([acbb2c9](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/acbb2c96165359f776fafe72f774770a66b2dc32))
+
 ## [1.6.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.5.1...v1.6.0) (2021-12-26)
 
 ### Features
