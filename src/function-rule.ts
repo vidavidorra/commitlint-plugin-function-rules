@@ -15,11 +15,11 @@ const functionRule: Rule<FunctionRule> = (
   when: RuleConfigCondition = 'always',
   value: FunctionRule | undefined,
 ) => {
-  if (typeof value === 'function') {
-    return value(parsed, when);
+  if (typeof value !== 'function') {
+    throw new Error('Not a valid function!');
   }
 
-  throw new Error('Not a valid function!');
+  return value(parsed, when);
 };
 
 export default functionRule;
