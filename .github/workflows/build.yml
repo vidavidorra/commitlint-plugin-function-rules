@@ -58,7 +58,7 @@ jobs:
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Test
-        run: npm run test:ci
+        run: npm test
   code-coverage:
     needs: [lint, build, test]
     runs-on: ubuntu-latest
@@ -73,7 +73,7 @@ jobs:
       - name: Install project
         run: npm ci --ignore-scripts
       - name: Test
-        run: npm run test:ci
+        run: npm test
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@e3c560433a6cc60aec8812599b7844a7b4fa0d71 # tag=v3.0.0
         with:
