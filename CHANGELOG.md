@@ -1,3 +1,9 @@
+### [1.6.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.1...v1.6.2) (2022-04-17)
+
+### Continuous Integration
+
+- use reusable workflows from vidavidorra/.github ([#187](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/187)) ([79e7199](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/79e719969fd6e9754d20aa9065188ed26d4e948f))
+
 ### [1.6.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.0...v1.6.1) (2022-04-17)
 
 ### Bug Fixes
