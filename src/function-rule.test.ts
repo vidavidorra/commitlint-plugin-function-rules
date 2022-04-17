@@ -29,7 +29,7 @@ test('returns a value from an implementation function', (t) => {
   t.deepEqual(returnValue, ruleOutcome);
 });
 
-test.failing('returns successful for an undefined implementation', (t) => {
+test('returns successful for an undefined implementation', (t) => {
   const returnValue = functionRule({} as Commit, 'always', undefined);
   t.deepEqual(returnValue, [true]);
 });

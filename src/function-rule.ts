@@ -13,13 +13,16 @@ type FunctionRule = (
 const functionRule: Rule<FunctionRule> = (
   parsed: Commit,
   when: RuleConfigCondition = 'always',
-  value: FunctionRule | undefined,
+  functionRule: FunctionRule | undefined,
 ) => {
-  if (typeof value !== 'function') {
+  if (functionRule === undefined) {
+    return [true];
+  }
+  if (typeof functionRule !== 'function') {
     throw new Error('Not a valid function!');
   }
 
-  return value(parsed, when);
+  return functionRule(parsed, when);
 };
 
 export default functionRule;
