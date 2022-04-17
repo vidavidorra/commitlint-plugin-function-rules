@@ -1,31 +1,30 @@
-import { describe, expect, it } from '@jest/globals';
 import commitlintRules from '@commitlint/rules';
 import functionRule from './function-rule';
 import rules from './rules';
+import test from 'ava';
 
-describe('rules', (): void => {
-  const prefix = 'function-rules/';
-  const names = Object.keys(rules);
-  const commitlintRuleNames = Object.keys(commitlintRules).sort();
+const prefix = 'function-rules/';
+const names = Object.keys(rules);
+const commitlintRuleNames = Object.keys(commitlintRules).sort();
 
-  it('exports the same rules as commitlint', () => {
-    const strippedNames = names.map((e) => {
-      return e.replace(new RegExp(`^${prefix}`), '');
-    });
+test('exports the same rules as commitlint', (t) => {
+  t.deepEqual(
+    names.map((e) => e.slice(prefix.length)),
+    commitlintRuleNames,
+  );
+});
 
-    expect(strippedNames).toEqual(commitlintRuleNames);
-  });
+test('are exported with with "${prefix}" as prefix', (t) => {
+  names.forEach((name) =>
+    t.true(
+      name.startsWith(prefix),
+      `"${name}" does not start with "${prefix}"`,
+    ),
+  );
+});
 
-  it(`are exported with with '${prefix}' as prefix`, () => {
-    const everyNameHasPrefix = names.every((e) => e.startsWith(prefix));
-
-    expect(everyNameHasPrefix).toBe(true);
-  });
-
-  it(`have 'functionRule' as value`, () => {
-    const values = Object.values(rules);
-    const everyValueIsFunctionRule = values.every((e) => e === functionRule);
-
-    expect(everyValueIsFunctionRule).toBe(true);
+test('have "functionRule" as value', (t) => {
+  Object.entries(rules).forEach(([name, rule]) => {
+    t.is(rule, functionRule, `"${name}" does not have "functionRule" as value`);
   });
 });
