@@ -1,3 +1,9 @@
+### [1.7.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.0...v1.7.1) (2022-05-22)
+
+### Tests
+
+- add commitlint v17.x ([6ac7b31](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6ac7b313d582ebe7356ed5725c84fbc3fe92c85c))
+
 ## [1.7.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.2...v1.7.0) (2022-05-22)
 
 ### Features
