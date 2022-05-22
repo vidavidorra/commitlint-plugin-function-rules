@@ -1,3 +1,9 @@
+## [1.7.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.2...v1.7.0) (2022-05-22)
+
+### Features
+
+- **deps:** update dependency @commitlint/lint to v17 ([#191](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/191)) ([0257f6a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0257f6a11443477e681d8d9532cc1e6239dcaccf))
+
 ### [1.6.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.6.1...v1.6.2) (2022-04-17)
 
 ### Continuous Integration
