@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - main
+      - beta
       - 'renovate/**'
-      - 'github-renovate/**'
   pull_request:
 jobs:
   lint-commit-messages:

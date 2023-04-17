@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/vidavidorra/commitlint-plugin-function-rules#readme",
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "peerDependencies": {
     "@commitlint/lint": ">=9.1.2 <18"
