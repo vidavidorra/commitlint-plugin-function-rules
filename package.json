@@ -15,13 +15,9 @@
     "lint-es:file": "eslint --ext .ts,.tsx,.js,.jsx,.json",
     "lint-es:fix": "eslint --ext .ts,.tsx,.js,.jsx,.json --fix .",
     "lint-es:file:fix": "eslint --ext .ts,.tsx,.js,.jsx,.json --fix",
-    "format": "prettier --ignore-path .eslintignore --write \"**/*.{js,jsx,vue,ts,css,less,scss,html,htm,json,md,markdown,yml,yaml}\"",
-    "format:check": "prettier --ignore-path .eslintignore --check \"**/*.{js,jsx,vue,ts,css,less,scss,html,htm,json,md,markdown,yml,yaml}\"",
-    "format:file": "prettier --write",
+    "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
     "build": "tsc",
-    "build:check": "tsc --noEmit",
-    "build:clean-first": "run-s clean build",
-    "clean": "rm -rf ./dist",
     "test": "c8 ava"
   },
   "repository": {
@@ -107,5 +103,130 @@
     "include": [
       "dist/**/*.js"
     ]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "release": {
+    "branches": [
+      "main",
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "releaseRules": [
+            {
+              "type": "perf",
+              "release": "patch"
+            },
+            {
+              "type": "revert",
+              "release": "patch"
+            },
+            {
+              "type": "docs",
+              "release": "patch"
+            },
+            {
+              "type": "chore",
+              "release": false
+            },
+            {
+              "type": "refactor",
+              "release": "patch"
+            },
+            {
+              "type": "test",
+              "release": "patch"
+            },
+            {
+              "type": "build",
+              "release": "patch"
+            },
+            {
+              "type": "ci",
+              "release": "patch"
+            }
+          ]
+        }
+      ],
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "prettier --write CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "tarballDir": "dist"
+        }
+      ],
+      "@semantic-release/git",
+      [
+        "@semantic-release/github",
+        {
+          "assets": "dist/*.tgz"
+        }
+      ]
+    ],
+    "preset": "conventionalcommits",
+    "presetConfig": {
+      "types": [
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {
+          "type": "perf",
+          "section": "Performance Improvements"
+        },
+        {
+          "type": "revert",
+          "section": "Reverts"
+        },
+        {
+          "type": "docs",
+          "section": "Documentation"
+        },
+        {
+          "type": "style",
+          "section": "Styles"
+        },
+        {
+          "type": "chore",
+          "section": "Miscellaneous Chores",
+          "hidden": true
+        },
+        {
+          "type": "refactor",
+          "section": "Code Refactoring"
+        },
+        {
+          "type": "test",
+          "section": "Tests"
+        },
+        {
+          "type": "build",
+          "section": "Build System"
+        },
+        {
+          "type": "ci",
+          "section": "Continuous Integration"
+        }
+      ]
+    }
   }
 }
