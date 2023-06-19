@@ -1,3 +1,9 @@
+## [2.0.0-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2023-06-19)
+
+### Continuous Integration
+
+- **renovate:** disable for commitlint v16 final version ([7cb48af](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7cb48af598025adc12ad8b54c0a2da3511ad49d4))
+
 ## [2.0.0-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.1...v2.0.0-beta.1) (2023-04-17)
 
 ### ⚠ BREAKING CHANGES
