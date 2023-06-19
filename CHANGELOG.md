@@ -1,3 +1,19 @@
+## [2.0.0-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0-beta.1...v2.0.0-beta.2) (2023-06-19)
+
+### Continuous Integration
+
+- **renovate:** disable for commitlint v16 final version ([7cb48af](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/7cb48af598025adc12ad8b54c0a2da3511ad49d4))
+
+## [2.0.0-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.1...v2.0.0-beta.1) (2023-04-17)
+
+### ⚠ BREAKING CHANGES
+
+- drop support for Node.js v12, which is EOL, and v14, which is EOL in a couple days
+
+### Features
+
+- drop support for Node.js v12, which is EOL, and v14, which is EOL in a couple days ([91c872b](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/91c872b77560fbe79008536ae6a7f2ba2808442b))
+
 ### [1.7.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.0...v1.7.1) (2022-05-22)
 
 ### Tests
