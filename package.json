@@ -43,7 +43,7 @@
     "@commitlint/lint": ">=9.1.2 <18"
   },
   "devDependencies": {
-    "@ava/typescript": "3.0.1",
+    "@ava/typescript": "4.0.0",
     "@commitlint/cli": "17.4.4",
     "@commitlint/config-conventional": "17.4.4",
     "@commitlint/lint-10.x": "npm:@commitlint/lint@10.0.0",
