@@ -30,7 +30,7 @@ jobs:
   code-coverage:
     name: Test coverage
     needs: [lint, build, test]
-    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@v2.1.0
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@d1af2b300d80b7abc1bda186aa29df55573af9ea # v2.1.0
     secrets:
       codecovToken: ${{ secrets.CODECOV_TOKEN }}
   release:
