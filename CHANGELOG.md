@@ -1,3 +1,13 @@
+## [2.0.1-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0...v2.0.1-beta.1) (2023-06-21)
+
+### ⚠ BREAKING CHANGES
+
+- change to ES module, export is still an CommonJS module as that's required by commitlint
+
+### Code Refactoring
+
+- change to ES module, export is still an CommonJS module as that's required by commitlint ([bf15a8a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/bf15a8ab3f19c939ff5c69b45a274fc45ecddc5d))
+
 ## [2.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.1...v2.0.0) (2023-06-19)
 
 ### ⚠ BREAKING CHANGES
