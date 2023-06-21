@@ -1,5 +1,5 @@
-import { Plugin } from '@commitlint/types';
-import functionRule from './function-rule';
+import {type Plugin} from '@commitlint/types';
+import {functionRule} from './function-rule.js';
 
 const rules: Plugin['rules'] = {
   'function-rules/body-case': functionRule,
@@ -37,6 +37,6 @@ const rules: Plugin['rules'] = {
   'function-rules/type-enum': functionRule,
   'function-rules/type-max-length': functionRule,
   'function-rules/type-min-length': functionRule,
-};
+} as const;
 
-export default rules;
+export {rules};

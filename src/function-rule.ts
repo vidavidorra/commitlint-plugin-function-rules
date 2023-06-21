@@ -1,8 +1,8 @@
 import {
-  Commit,
-  Rule,
-  RuleConfigCondition,
-  RuleOutcome,
+  type Commit,
+  type Rule,
+  type RuleConfigCondition,
+  type RuleOutcome,
 } from '@commitlint/types';
 
 type FunctionRule = (
@@ -10,20 +10,20 @@ type FunctionRule = (
   when: RuleConfigCondition,
 ) => RuleOutcome | Promise<RuleOutcome>;
 
-const functionRule: Rule<FunctionRule> = (
+const functionRule: Rule<FunctionRule> = async (
   parsed: Commit,
   when: RuleConfigCondition = 'always',
-  functionRule: FunctionRule | undefined,
+  functionRule?: FunctionRule,
 ) => {
   if (functionRule === undefined) {
     return [true];
   }
+
   if (typeof functionRule !== 'function') {
-    throw new Error('Not a valid function!');
+    throw new TypeError('Not a valid function!');
   }
 
   return functionRule(parsed, when);
 };
 
-export default functionRule;
-export { FunctionRule };
+export {type FunctionRule, functionRule};

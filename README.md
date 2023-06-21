@@ -1,11 +1,11 @@
-# commitlint plugin function rules
+# commitlint plugin function rules <!-- omit in toc -->
 
-[commitlint][commitlint] plugin to use functions as rule value.
+[**commitlint**][commitlint] plugin to use functions as rule value.
 
 - Create custom function, `sync` or `async`, as rule value.
 - Create rules that are based on the commit message.
 - Write rules with regular expressions.
-- Use the same rules that are [available](https://commitlint.js.org/#/reference-rules) in [commitlint][commitlint].
+- Use the same rules that are [available in **commitlint**][commitlint].
 
 ---
 
@@ -17,13 +17,8 @@
 [![Code coverage](https://img.shields.io/codecov/c/github/vidavidorra/commitlint-plugin-function-rules?logo=codecov&style=flat-square)](https://codecov.io/gh/vidavidorra/commitlint-plugin-function-rules)
 [![License](https://img.shields.io/github/license/vidavidorra/commitlint-plugin-function-rules?style=flat-square)](LICENSE.md)
 
-<a name="toc"></a>
-
-## Table of contents
-
 - [Install](#install)
 - [Usage](#usage)
-- [Documentation](#documentation)
 - [Contributing](#contributing)
 - [Security policy](#security-policy)
 - [License](#license)
@@ -31,14 +26,14 @@
 ## Install
 
 ```shell
-npm install --save-dev commitlint-plugin-function-rules @commitlint/cli
+npm install --save-dev commitlint-plugin-function-rules @commitlint/cli @commitlint/config-conventional
 ```
 
 ## Usage
 
-Use this plugin in your project's commitlint configuration by specifying it as item in the `plugins` array. All rules have same name as the [commitlint][commitlint] rules, but with the `function-rules` prefix.
+Use this plugin in your project's [**commitlint**][commitlint] configuration by specifying it as item in the `plugins` array. All rules have same name as rules that are [available in **commitlint**][rules], but with the `function-rules` prefix. The example `commitlint.config.js`, or `commitlint.config.cjs` if the package is an ES module, shows the usage of a function rule.
 
-> **_Note:_** The available rules are the same as in [commitlint][commitlint], so it is recommended to disable the [commitlint][commitlint] rule when specifying a function rule to avoid undefined behaviour.
+> **Note** The available rules are the same as in [**commitlint**][commitlint], so it is recommended to disable the [**commitlint**][commitlint] rule when specifying a function rule to avoid undefined behaviour.
 
 ```js
 module.exports = {
@@ -50,31 +45,26 @@ module.exports = {
       2, // level: error
       'always',
       (parsed) => {
-        if (parsed.type === 'chore' && parsed.header.length < 20) {
+        // Allow longer headers for commits with "deps" scope.
+        if (parsed.scope === 'deps' && parsed.header.length <= 200) {
           return [true];
         }
-        return [false, 'chore header must not be longer than 120 characters'];
+        return [false, 'deps header must not be longer than 200 characters'];
       },
     ],
   },
 };
 ```
 
-## Documentation
-
 ## Contributing
 
-Please [create an issue](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/new/choose) if you have a bug report, feature proposal or question that does not yet exist.
-
-Please give this project a star ⭐ if you like it and consider becoming a [sponsor](https://github.com/sponsors/jdbruijn) to support this project.
+Please [create an issue](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/new/choose) if you have a bug report or feature proposal, or [create a discussion](https://github.com/vidavidorra/commitlint-plugin-function-rules/discussions) if you have a question. If you like this project, please consider giving it a star ⭐ and/or become a [sponsor](https://github.com/sponsors/jdbruijn) to support my work.
 
 Refer to the [contributing guide](https://github.com/vidavidorra/.github/blob/main/CONTRIBUTING.md) detailed information about other contributions, like pull requests.
 
 [![Conventional Commits: 1.0.0](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow?style=flat-square)](https://conventionalcommits.org)
+[![XO code style](https://shields.io/badge/code_style-5ed9c7?logo=xo&labelColor=gray&style=flat-square)](https://github.com/xojs/xo)
 [![Code style](https://img.shields.io/badge/code_style-Prettier-ff69b4?logo=prettier&style=flat-square)](https://github.com/prettier/prettier)
-[![Linting](https://img.shields.io/badge/linting-ESLint-lightgrey?logo=eslint&style=flat-square)](https://eslint.org)
-[![Lint commit messages](https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Lint%20commit%20messages?logo=github&label=Lint%20commit%20messages&style=flat-square)](https://github.com/vidavidorra/commitlint-plugin-function-rules/actions)
-[![Build](https://img.shields.io/github/workflow/status/vidavidorra/commitlint-plugin-function-rules/Build?logo=github&label=Build&style=flat-square)](https://github.com/vidavidorra/commitlint-plugin-function-rules/actions)
 
 ## Security policy
 
@@ -86,7 +76,7 @@ This project is licensed under the [GPLv3 license](https://www.gnu.org/licenses/
 
 Copyright © 2020-2023 Jeroen de Bruijn
 
-<details><summary>License details.</summary>
+<details><summary>License notice</summary>
 <p>
 
 This program is free software: you can redistribute it and/or modify
@@ -109,3 +99,4 @@ The full text of the license is available in the [LICENSE](LICENSE.md) file in t
 <!-- References -->
 
 [commitlint]: https://commitlint.js.org/
+[rules]: https://commitlint.js.org/#/reference-rules

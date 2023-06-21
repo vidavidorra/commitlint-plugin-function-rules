@@ -1,12 +1,9 @@
-import * as plugin from '.';
-import { RuleOutcome } from '@commitlint/types';
-import rules from './rules';
+import {type RuleOutcome} from '@commitlint/types';
 import test from 'ava';
-
-test('exports a CommonJS module', (t) => {
-  t.is(typeof plugin, 'object');
-  t.is(typeof plugin.rules, 'object');
-});
+import type commitlintLoad from '@commitlint/load-17.x';
+import type commitlintLint from '@commitlint/lint-17.x';
+import {rules} from './rules.js';
+import {plugin} from './plugin.js';
 
 test('exports rules', (t) => {
   t.is(plugin.rules, rules);
@@ -14,9 +11,15 @@ test('exports rules', (t) => {
 
 const loadPlugin = test.macro<[string]>({
   async exec(t, version) {
-    const load = (await import(`@commitlint/load-${version}`)).default;
-    t.true(load !== undefined);
-    await t.notThrowsAsync(load({ plugins: [plugin] }));
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    const module = await import(`@commitlint/load-${version}`);
+    const load = module.default.default as typeof commitlintLoad.default;
+    /**
+     * Specify the package file, which doesn't contain a configuration, to
+     * prevent `@commitlint/load` from searching the filesystem for an actual
+     * configuration.
+     */
+    await t.notThrowsAsync(load({plugins: [plugin]}, {file: 'package.json'}));
   },
   title(_, version) {
     return `@commitlint/load@${version} can load the plugin`;
@@ -35,17 +38,16 @@ test(loadPlugin, '17.x');
 
 const lintUsingPluginRules = test.macro<[string]>({
   async exec(t, version) {
-    const load = (await import(`@commitlint/load-${version}`)).default;
-    t.true(load !== undefined);
-    const lint = (await import(`@commitlint/lint-${version}`)).default;
-    t.true(lint !== undefined);
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+    const module = await import(`@commitlint/lint-${version}`);
+    const lint = module.default.default as typeof commitlintLint.default;
 
     for await (const rule of Object.keys(plugin.rules)) {
-      const configs: Array<{ async: boolean; ruleOutcome: RuleOutcome }> = [
-        { async: false, ruleOutcome: [true] },
-        { async: false, ruleOutcome: [false, `error message from ${rule}`] },
-        { async: true, ruleOutcome: [true] },
-        { async: true, ruleOutcome: [false, `error message from ${rule}`] },
+      const configs: Array<{async: boolean; ruleOutcome: RuleOutcome}> = [
+        {async: false, ruleOutcome: [true]},
+        {async: false, ruleOutcome: [false, `error message from ${rule}`]},
+        {async: true, ruleOutcome: [true]},
+        {async: true, ruleOutcome: [false, `error message from ${rule}`]},
       ];
 
       for await (const config of configs) {
@@ -60,7 +62,7 @@ const lintUsingPluginRules = test.macro<[string]>({
                 : () => config.ruleOutcome,
             ],
           },
-          { plugins: { 'function-rules': plugin } },
+          {plugins: {'function-rules': plugin}},
         );
 
         const message = `rule "${rule}" can't be used by commitlint`;

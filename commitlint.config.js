@@ -1,44 +1,25 @@
-module.exports = {
+const config = {
   extends: ['@commitlint/config-conventional'],
   plugins: [
     {
       rules: {
-        'header-max-length-deps': (parsed) => {
-          const config = {
-            maxLength: 100,
-            dependencyCommit: {
-              type: /^(chore|fix)/,
-              scope: /(peer-)?deps/,
-              maxLength: 200,
-            },
-          };
-
-          const length = parsed.header.length;
+        'function-rules/header-max-length'(parsed) {
+          const {length} = parsed.header;
+          const maxLength = 100;
+          const maxDepsLength = 200;
           const isDepsCommit =
-            config.dependencyCommit.type.test(parsed.type) &&
-            config.dependencyCommit.scope.test(parsed.scope);
-
-          if (length <= config.maxLength) {
-            return [true];
-          }
-
-          if (!isDepsCommit && length > config.maxLength) {
+            /^(chore|fix)/.test(parsed.type) && parsed.scope === 'deps';
+          if (
+            (isDepsCommit && length > maxDepsLength) ||
+            (!isDepsCommit && length > maxLength)
+          ) {
+            const type = isDepsCommit ? 'for dependency commits ' : '';
+            const maxCharacters = isDepsCommit ? maxDepsLength : maxLength;
             return [
               false,
               [
-                `header must not be longer than ${config.maxLength}`,
+                `header ${type}must not be longer than ${maxCharacters}`,
                 `characters, current length is ${length}`,
-              ].join(' '),
-            ];
-          }
-
-          if (isDepsCommit && length > config.dependencyCommit.maxLength) {
-            return [
-              false,
-              [
-                `header for dependency commits must not be longer than`,
-                `${config.dependencyCommit.maxLength} characters, current`,
-                `length is ${length}`,
               ].join(' '),
             ];
           }
@@ -52,6 +33,8 @@ module.exports = {
     'body-max-line-length': [0],
     'footer-max-line-length': [0],
     'header-max-length': [0],
-    'header-max-length-deps': [2, 'always'],
+    'function-rules/header-max-length': [2, 'always'],
   },
 };
+
+export default config;
