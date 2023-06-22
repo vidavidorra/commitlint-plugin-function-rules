@@ -1,4 +1,4 @@
-const config = {
+module.exports = {
   extends: ['@commitlint/config-conventional'],
   plugins: [
     {
@@ -36,5 +36,3 @@ const config = {
     'function-rules/header-max-length': [2, 'always'],
   },
 };
-
-export default config;
