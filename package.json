@@ -29,15 +29,19 @@
     "./dist/**/!(*.test).{js,d.ts,cjs}"
   ],
   "scripts": {
-    "prepare": "husky install .github/husky",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:cjs": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.cjs",
+    "build:esm": "tsc",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
+    "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
     "lint": "npm run format:check && xo",
     "lint:fix": "npm run format && xo --fix",
-    "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
-    "build": "npm run build:esm && npm run build:cjs",
-    "build:esm": "tsc",
-    "build:cjs": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.cjs",
+    "prepare": "husky install .github/husky",
     "test": "c8 ava"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true
   },
   "prettier": {
     "singleQuote": true,
@@ -186,10 +190,6 @@
       "lcovonly",
       "text-summary"
     ]
-  },
-  "xo": {
-    "prettier": true,
-    "space": true
   },
   "devDependencies": {
     "@ava/typescript": "4.0.0",
