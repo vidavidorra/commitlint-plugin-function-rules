@@ -21,11 +21,10 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/index.js",
+      "import": "./dist/plugin.js",
       "require": "./dist/index.cjs"
     }
   },
-  "types": "./dist/index.d.ts",
   "files": [
     "./dist/**/!(*.test).{js,d.ts,cjs}"
   ],
