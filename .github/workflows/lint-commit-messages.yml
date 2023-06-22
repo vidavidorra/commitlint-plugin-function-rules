@@ -9,3 +9,5 @@ on:
 jobs:
   lint-commit-messages:
     uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@831cdfeaf21957af495b3d518c1a877d5ffd3253 # v2.1.1
+    with:
+      configFile: ./commitlint.config.cjs
