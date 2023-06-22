@@ -1,3 +1,13 @@
+## [2.0.1-beta.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1-beta.2...v2.0.1-beta.3) (2023-06-22)
+
+### Styles
+
+- use bold link for branding in header ([5bb540f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/5bb540f95a23b63fa3083c3604ba12067b0981d1))
+
+### Continuous Integration
+
+- include Node.js v20 in testing and drop, almost EOL, v19 ([55a1856](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/55a185616bf0c7c315aaf3c81701e9125865325a))
+
 ## [2.0.1-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1-beta.1...v2.0.1-beta.2) (2023-06-22)
 
 ### Build System
