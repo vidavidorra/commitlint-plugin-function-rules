@@ -1,3 +1,33 @@
+## [2.0.1-beta.3](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1-beta.2...v2.0.1-beta.3) (2023-06-22)
+
+### Styles
+
+- use bold link for branding in header ([5bb540f](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/5bb540f95a23b63fa3083c3604ba12067b0981d1))
+
+### Continuous Integration
+
+- include Node.js v20 in testing and drop, almost EOL, v19 ([55a1856](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/55a185616bf0c7c315aaf3c81701e9125865325a))
+
+## [2.0.1-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1-beta.1...v2.0.1-beta.2) (2023-06-22)
+
+### Build System
+
+- change ESM import to plugin to prevent import errors ([c185ce3](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c185ce3e4151fd943366bae022fede85828c8c48))
+
+### Continuous Integration
+
+- rename commitlint config to CommonJS to prevent commitlint module load error ([5c8627a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/5c8627a73da97597176ca123f5ffc74ea0a99b78))
+
+## [2.0.1-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0...v2.0.1-beta.1) (2023-06-21)
+
+### ⚠ BREAKING CHANGES
+
+- change to ES module, export is still an CommonJS module as that's required by commitlint
+
+### Code Refactoring
+
+- change to ES module, export is still an CommonJS module as that's required by commitlint ([bf15a8a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/bf15a8ab3f19c939ff5c69b45a274fc45ecddc5d))
+
 ## [2.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v1.7.1...v2.0.0) (2023-06-19)
 
 ### ⚠ BREAKING CHANGES
