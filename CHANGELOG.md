@@ -1,3 +1,13 @@
+## [2.0.1-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1-beta.1...v2.0.1-beta.2) (2023-06-22)
+
+### Build System
+
+- change ESM import to plugin to prevent import errors ([c185ce3](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c185ce3e4151fd943366bae022fede85828c8c48))
+
+### Continuous Integration
+
+- rename commitlint config to CommonJS to prevent commitlint module load error ([5c8627a](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/5c8627a73da97597176ca123f5ffc74ea0a99b78))
+
 ## [2.0.1-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0...v2.0.1-beta.1) (2023-06-21)
 
 ### ⚠ BREAKING CHANGES
