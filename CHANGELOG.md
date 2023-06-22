@@ -1,3 +1,9 @@
+## [2.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1...v2.0.2) (2023-06-22)
+
+### Continuous Integration
+
+- specify commitlint configuration file ([f148822](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/f14882217e1c3bba9a64b8a0c88586272c07cd75))
+
 ## [2.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.0...v2.0.1) (2023-06-22)
 
 ### ⚠ BREAKING CHANGES
