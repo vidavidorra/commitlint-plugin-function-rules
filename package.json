@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "build": "npm run build:esm && npm run build:cjs",
-    "build:cjs": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.cjs",
+    "build:cjs": "esbuild src/index.ts --bundle --target=ES2022 --platform=node --outfile=dist/index.cjs",
     "build:esm": "tsc",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --loglevel warn",
