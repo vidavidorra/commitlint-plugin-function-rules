@@ -1,4 +1,4 @@
-# commitlint plugin function rules <!-- omit in toc -->
+# [**commitlint**][commitlint] plugin function rules <!-- omit in toc -->
 
 [**commitlint**][commitlint] plugin to use functions as rule value.
 
