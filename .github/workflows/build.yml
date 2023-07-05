@@ -8,14 +8,14 @@ on:
   pull_request:
 jobs:
   lint:
-    uses: vidavidorra/.github/.github/workflows/node-lint.yml@831cdfeaf21957af495b3d518c1a877d5ffd3253 # v2.1.1
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
   build:
     name: Build (Node.js ${{ matrix.nodeVersion }})
     strategy:
       fail-fast: false
       matrix:
         nodeVersion: [16, 18, 20]
-    uses: vidavidorra/.github/.github/workflows/node-build.yml@831cdfeaf21957af495b3d518c1a877d5ffd3253 # v2.1.1
+    uses: vidavidorra/.github/.github/workflows/node-build.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
     with:
       nodeVersion: ${{ matrix.nodeVersion }}
   test:
@@ -24,13 +24,13 @@ jobs:
       fail-fast: false
       matrix:
         node: [16, 18, 20]
-    uses: vidavidorra/.github/.github/workflows/node-test.yml@831cdfeaf21957af495b3d518c1a877d5ffd3253 # v2.1.1
+    uses: vidavidorra/.github/.github/workflows/node-test.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
     with:
       nodeVersion: ${{ matrix.node }}
   code-coverage:
     name: Test coverage
     needs: [lint, build, test]
-    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@831cdfeaf21957af495b3d518c1a877d5ffd3253 # v2.1.1
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@62580a2290da7a11a4332bbafc49ecb895d6873e # v3.0.0
     secrets:
       codecovToken: ${{ secrets.CODECOV_TOKEN }}
   release:
