@@ -202,6 +202,7 @@
     "@commitlint/lint-15.x": "npm:@commitlint/lint@15.0.0",
     "@commitlint/lint-16.x": "npm:@commitlint/lint@16.2.4",
     "@commitlint/lint-17.x": "npm:@commitlint/lint@17.8.1",
+    "@commitlint/lint-18.x": "npm:@commitlint/lint@18.1.0",
     "@commitlint/lint-9.x": "npm:@commitlint/lint@9.1.2",
     "@commitlint/load-10.x": "npm:@commitlint/load@10.0.0",
     "@commitlint/load-11.x": "npm:@commitlint/load@11.0.0",
@@ -211,6 +212,7 @@
     "@commitlint/load-15.x": "npm:@commitlint/load@15.0.0",
     "@commitlint/load-16.x": "npm:@commitlint/load@16.3.0",
     "@commitlint/load-17.x": "npm:@commitlint/load@17.8.1",
+    "@commitlint/load-18.x": "npm:@commitlint/load@18.2.0",
     "@commitlint/load-9.x": "npm:@commitlint/load@9.1.2",
     "@commitlint/rules": "18.1.0",
     "@commitlint/types": "18.1.0",
@@ -230,7 +232,7 @@
     "xo": "0.56.0"
   },
   "peerDependencies": {
-    "@commitlint/lint": ">=9.1.2 <18"
+    "@commitlint/lint": ">=9.1.2 <19"
   },
   "engines": {
     "node": ">=18"

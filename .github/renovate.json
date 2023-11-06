@@ -5,7 +5,7 @@
     {
       "description": "Disable updates for aliased commitlint packages with a final version",
       "matchPackagePatterns": [
-        "^@commitlint/(lint|load)\\-(9|10|11|12|13|14|15|16)\\.x"
+        "^@commitlint/(lint|load)\\-(9|10|11|12|13|14|15|16|17)\\.x"
       ],
       "matchDepTypes": ["devDependencies"],
       "enabled": false

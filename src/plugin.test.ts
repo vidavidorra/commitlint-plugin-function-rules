@@ -35,6 +35,7 @@ test(loadPlugin, '14.x');
 test(loadPlugin, '15.x');
 test(loadPlugin, '16.x');
 test(loadPlugin, '17.x');
+test(loadPlugin, '18.x');
 
 const lintUsingPluginRules = test.macro<[string]>({
   async exec(t, version) {
@@ -90,3 +91,4 @@ test(lintUsingPluginRules, '14.x');
 test(lintUsingPluginRules, '15.x');
 test(lintUsingPluginRules, '16.x');
 test(lintUsingPluginRules, '17.x');
+test(lintUsingPluginRules, '18.x');
