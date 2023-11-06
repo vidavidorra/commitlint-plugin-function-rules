@@ -1,3 +1,31 @@
+## [3.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.2...v3.0.0) (2023-11-06)
+
+### ⚠ BREAKING CHANGES
+
+- require Node.js 18 minimum
+
+### Features
+
+- add support for commitlint v18 ([d633a66](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/d633a6635f4496d3d2b9b722dc9eadcb2618bfdf)), closes [#213](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/213)
+- require Node.js 18 minimum ([94ee8eb](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/94ee8eb41627c2cb3877ecf3b33abd7eb8bd68bf))
+
+### Bug Fixes
+
+- **deps:** update dependencies (in bulk) ([c3c5ff9](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c3c5ff956c0b5c66c6fd6639bf8631acce2e2bc6))
+
+### Styles
+
+- format `lint-staged.js` ([c29c41d](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c29c41db1db30c4374165140a8b6fe766da2419a))
+
+### Build System
+
+- change module from `ES2022` to `Node16` in TSConfig ([776b1ef](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/776b1ef1e290741793725ddc0f2633fcf06ddc5a))
+
+### Continuous Integration
+
+- fail `format` scripts on a warning ([cd75935](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/cd7593575acb373864eb90a8e8b64a6bf84a8dc5))
+- rename `build` workflow to `ci-cd` ([6a67287](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6a672870daf32d9f2ad911cf4ed61980789a2a8f))
+
 ## [2.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.1...v2.0.2) (2023-06-22)
 
 ### Continuous Integration
