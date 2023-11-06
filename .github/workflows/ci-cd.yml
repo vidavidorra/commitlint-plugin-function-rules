@@ -1,0 +1,48 @@
+name: CI/CD
+on:
+  push:
+    branches:
+      - main
+      - beta
+      - renovate/**
+  pull_request: null
+jobs:
+  lint-commit-messages:
+    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+  lint:
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+  build:
+    uses: vidavidorra/.github/.github/workflows/node-build.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+    strategy:
+      fail-fast: false
+      matrix:
+        nodeVersion: [18, 20, 21]
+    with:
+      nodeVersion: ${{ matrix.nodeVersion }}
+  test:
+    uses: vidavidorra/.github/.github/workflows/node-test.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+    strategy:
+      fail-fast: false
+      matrix:
+        nodeVersion: [18, 20, 21]
+    with:
+      nodeVersion: ${{ matrix.nodeVersion }}
+  code-coverage:
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+    needs:
+      - lint
+      - build
+      - test
+    secrets:
+      codecovToken: ${{ secrets.CODECOV_TOKEN }}
+  release:
+    uses: vidavidorra/.github/.github/workflows/release.yml@430b5f02ffe77661ce0fe69608df20e1eb478c95 # v4.1.1
+    needs:
+      - lint-commit-messages
+      - lint
+      - build
+      - test
+      - code-coverage
+    secrets:
+      privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
+      npmToken: ${{ secrets.NPM_PUBLISH_TOKEN }}
