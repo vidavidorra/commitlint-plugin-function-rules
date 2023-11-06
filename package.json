@@ -44,8 +44,7 @@
     "space": true
   },
   "prettier": {
-    "singleQuote": true,
-    "trailingComma": "all"
+    "singleQuote": true
   },
   "release": {
     "branches": [
