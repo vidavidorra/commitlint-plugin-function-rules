@@ -233,6 +233,6 @@
     "@commitlint/lint": ">=9.1.2 <18"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   }
 }
