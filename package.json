@@ -220,7 +220,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@types/sinon": "17.0.2",
-    "ava": "5.3.1",
+    "ava": "6.0.1",
     "c8": "8.0.1",
     "esbuild": "0.19.10",
     "husky": "8.0.3",
