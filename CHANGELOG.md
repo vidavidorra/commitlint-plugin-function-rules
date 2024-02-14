@@ -1,3 +1,9 @@
+## [3.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v3.0.0...v3.1.0) (2024-02-14)
+
+### Features
+
+- **rules:** add `header-trim` rule for commitlint v18.6.0 ([1f2ca95](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/1f2ca952bb4f9bcdd8815c70ddb4c089e62e1a3f))
+
 ## [3.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v2.0.2...v3.0.0) (2023-11-06)
 
 ### ⚠ BREAKING CHANGES
