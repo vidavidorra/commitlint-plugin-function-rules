@@ -18,6 +18,7 @@ const rules: Plugin['rules'] = {
   'function-rules/header-full-stop': functionRule,
   'function-rules/header-max-length': functionRule,
   'function-rules/header-min-length': functionRule,
+  'function-rules/header-trim': functionRule,
   'function-rules/references-empty': functionRule,
   'function-rules/scope-case': functionRule,
   'function-rules/scope-empty': functionRule,
