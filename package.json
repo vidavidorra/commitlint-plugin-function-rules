@@ -37,7 +37,7 @@
     "format:check": "prettier --ignore-path .gitignore --check \"**/*.{vue,css,less,scss,html,htm,json,md,markdown,yml,yaml}\" --log-level warn",
     "lint": "npm run format:check && xo",
     "lint:fix": "npm run format && xo --fix",
-    "prepare": "husky install .github/husky",
+    "prepare": "husky .github/husky",
     "test": "c8 ava"
   },
   "xo": {
@@ -224,7 +224,7 @@
     "ava": "6.1.1",
     "c8": "9.1.0",
     "esbuild": "0.20.0",
-    "husky": "8.0.3",
+    "husky": "9.0.10",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "semantic-release": "23.0.2",
