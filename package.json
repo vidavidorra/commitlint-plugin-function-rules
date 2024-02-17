@@ -194,7 +194,7 @@
   "devDependencies": {
     "@ava/typescript": "4.1.0",
     "@commitlint/cli": "18.6.1",
-    "@commitlint/config-conventional": "18.6.1",
+    "@commitlint/config-conventional": "18.6.2",
     "@commitlint/lint-10.x": "npm:@commitlint/lint@10.0.0",
     "@commitlint/lint-11.x": "npm:@commitlint/lint@11.0.0",
     "@commitlint/lint-12.x": "npm:@commitlint/lint@12.1.4",
