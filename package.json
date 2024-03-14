@@ -233,7 +233,7 @@
     "xo": "0.58.0"
   },
   "peerDependencies": {
-    "@commitlint/lint": ">=9.1.2 <19"
+    "@commitlint/lint": ">=9.1.2 <20"
   },
   "engines": {
     "node": ">=18"
