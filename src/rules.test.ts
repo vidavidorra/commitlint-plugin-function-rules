@@ -5,7 +5,7 @@ import {rules} from './rules.js';
 
 const prefix = 'function-rules/';
 const names = Object.keys(rules);
-const commitlintRuleNames = Object.keys(commitlintRules.default).sort();
+const commitlintRuleNames = Object.keys(commitlintRules).sort();
 test('exports the same rules as commitlint', (t) => {
   t.deepEqual(
     names.map((name) => name.slice(prefix.length)),

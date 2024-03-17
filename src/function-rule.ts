@@ -1,10 +1,10 @@
 import {
-  type Commit,
   type Rule,
   type RuleConfigCondition,
   type RuleOutcome,
 } from '@commitlint/types';
 
+type Commit = Parameters<Rule>[0];
 type FunctionRule = (
   parsed: Commit,
   when: RuleConfigCondition,
@@ -26,4 +26,4 @@ const functionRule: Rule<FunctionRule> = async (
   return functionRule(parsed, when);
 };
 
-export {type FunctionRule, functionRule};
+export {type Commit, functionRule};

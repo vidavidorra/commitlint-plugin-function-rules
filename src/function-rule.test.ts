@@ -1,7 +1,7 @@
-import {type Commit, type RuleOutcome} from '@commitlint/types';
+import {type RuleOutcome} from '@commitlint/types';
 import {fake} from 'sinon';
 import test from 'ava';
-import {functionRule} from './function-rule.js';
+import {type Commit, functionRule} from './function-rule.js';
 
 test('calls an implementation fuction once', async (t) => {
   const implementation = fake();
