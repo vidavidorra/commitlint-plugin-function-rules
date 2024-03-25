@@ -1,3 +1,9 @@
+## [4.0.0-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2024-03-25)
+
+### Continuous Integration
+
+- remove tests on Node.js 18 ([0051bfa](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0051bfa5f21f9dbf6b5567ba1036ffe44229c579))
+
 ## [4.0.0-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v3.1.0...v4.0.0-beta.1) (2024-03-17)
 
 ### ⚠ BREAKING CHANGES
