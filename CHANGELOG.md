@@ -1,3 +1,20 @@
+## [4.0.0-beta.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.0-beta.1...v4.0.0-beta.2) (2024-03-25)
+
+### Continuous Integration
+
+- remove tests on Node.js 18 ([0051bfa](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0051bfa5f21f9dbf6b5567ba1036ffe44229c579))
+
+## [4.0.0-beta.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v3.1.0...v4.0.0-beta.1) (2024-03-17)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** Drop support for @commitlint v9 up to and indlucing v18
+- **deps:** Require Node.js 20 minimum
+
+### Features
+
+- **deps:** update commitlint monorepo to v19 ([79668a5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/79668a5353cf20770fc4804562344ef0aaaf0c88))
+
 ## [3.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v3.0.0...v3.1.0) (2024-02-14)
 
 ### Features
