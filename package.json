@@ -203,7 +203,7 @@
     "prettier": "3.2.5",
     "semantic-release": "23.0.7",
     "sinon": "17.0.1",
-    "typescript": "5.4.3",
+    "typescript": "5.4.4",
     "xo": "0.58.0"
   },
   "peerDependencies": {
