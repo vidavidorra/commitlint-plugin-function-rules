@@ -4,18 +4,18 @@
   "packageRules": [
     {
       "description": "Disable updates for aliased commitlint packages with a final version",
-      "matchPackagePatterns": [
-        "^@commitlint/(lint|load)\\-(9|10|11|12|13|14|15|16|17)\\.x"
-      ],
       "matchDepTypes": ["devDependencies"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": [
+        "/^@commitlint/(lint|load)\\-(9|10|11|12|13|14|15|16|17)\\.x/"
+      ]
     },
     {
       "description": "Group commitlint peer dependencies as feat commit",
-      "matchPackagePatterns": ["^@commitlint/"],
       "matchDepTypes": ["peerDependencies"],
       "groupName": "peerDependencies commitlint monorepo",
-      "semanticCommitType": "feat"
+      "semanticCommitType": "feat",
+      "matchPackageNames": ["/^@commitlint//"]
     }
   ]
 }
