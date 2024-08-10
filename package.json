@@ -186,10 +186,10 @@
   },
   "devDependencies": {
     "@ava/typescript": "5.0.0",
-    "@commitlint/cli": "19.3.0",
+    "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "@commitlint/lint-19.x": "npm:@commitlint/lint@19.2.2",
-    "@commitlint/load-19.x": "npm:@commitlint/load@19.2.0",
+    "@commitlint/load-19.x": "npm:@commitlint/load@19.4.0",
     "@commitlint/rules": "19.0.3",
     "@commitlint/types": "19.0.3",
     "@semantic-release/changelog": "6.0.3",
