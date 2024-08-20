@@ -201,7 +201,7 @@
     "husky": "9.1.4",
     "lint-staged": "15.2.9",
     "prettier": "3.3.3",
-    "semantic-release": "24.0.0",
+    "semantic-release": "24.1.0",
     "sinon": "18.0.0",
     "typescript": "5.5.4",
     "xo": "0.59.3"
