@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        nodeVersion: [20, 21]
+        nodeVersion: [20, 22, 23]
     with:
       nodeVersion: ${{ matrix.nodeVersion }}
   test:
@@ -24,7 +24,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        nodeVersion: [20, 21]
+        nodeVersion: [20, 22, 23]
     with:
       nodeVersion: ${{ matrix.nodeVersion }}
   code-coverage:
