@@ -1,3 +1,9 @@
+## [4.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.0...v4.0.1) (2024-11-04)
+
+### Continuous Integration
+
+- build and test with Node.js 20, 22 and 23 ([ab3bab5](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/ab3bab576fe43bfe55e4275e7de5ba557563396d))
+
 ## [4.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v3.1.0...v4.0.0) (2024-03-25)
 
 ### ⚠ BREAKING CHANGES
