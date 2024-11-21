@@ -198,7 +198,7 @@
     "@types/sinon": "17.0.3",
     "ava": "6.2.0",
     "c8": "10.1.2",
-    "husky": "9.1.6",
+    "husky": "9.1.7",
     "lint-staged": "15.2.10",
     "prettier": "3.3.3",
     "semantic-release": "24.2.0",
