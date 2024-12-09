@@ -204,7 +204,7 @@
     "semantic-release": "24.2.0",
     "sinon": "19.0.2",
     "typescript": "5.7.2",
-    "xo": "0.59.3"
+    "xo": "0.60.0"
   },
   "peerDependencies": {
     "@commitlint/lint": ">=19 <20"
