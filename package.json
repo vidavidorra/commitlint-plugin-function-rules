@@ -193,7 +193,7 @@
     "@commitlint/rules": "19.8.1",
     "@commitlint/types": "19.8.1",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "7.0.3",
+    "@semantic-release/exec": "7.1.0",
     "@semantic-release/git": "10.0.1",
     "@types/sinon": "17.0.4",
     "ava": "6.3.0",
