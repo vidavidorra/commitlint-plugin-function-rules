@@ -35,6 +35,7 @@ test(loadPlugin, '19.x');
 
 const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
   async exec(t, version) {
+    // eslint-disable-next-line @typescript-eslint/await-thenable
     for await (const rule of Object.keys(plugin.rules)) {
       const configs: Array<{async: boolean; ruleOutcome: RuleOutcome}> = [
         {async: false, ruleOutcome: [true]},
@@ -43,6 +44,7 @@ const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
         {async: true, ruleOutcome: [false, `error message from ${rule}`]},
       ];
 
+      // eslint-disable-next-line @typescript-eslint/await-thenable
       for await (const config of configs) {
         const report = await versions[version].lint(
           'chore: basic commit message',
