@@ -1,3 +1,9 @@
+## [4.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.1...v4.0.2) (2025-05-29)
+
+### Continuous Integration
+
+- include Node.js v24 and drop v23, which is EOL June 1st ([10f1034](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/10f103442734d925ad718e6ab5fe7723bbce92b9))
+
 ## [4.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.0...v4.0.1) (2024-11-04)
 
 ### Continuous Integration
