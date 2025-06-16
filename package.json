@@ -202,7 +202,7 @@
     "lint-staged": "16.1.0",
     "prettier": "3.5.3",
     "semantic-release": "24.2.5",
-    "sinon": "20.0.0",
+    "sinon": "21.0.0",
     "typescript": "5.8.3",
     "xo": "1.1.0"
   },
