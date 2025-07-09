@@ -8,11 +8,11 @@ on:
   pull_request: null
 jobs:
   lint-commit-messages:
-    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/lint-commit-messages.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
   lint:
-    uses: vidavidorra/.github/.github/workflows/node-lint.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/node-lint.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
   build:
-    uses: vidavidorra/.github/.github/workflows/node-build.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/node-build.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
     strategy:
       fail-fast: false
       matrix:
@@ -20,7 +20,7 @@ jobs:
     with:
       nodeVersion: ${{ matrix.nodeVersion }}
   test:
-    uses: vidavidorra/.github/.github/workflows/node-test.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/node-test.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
     strategy:
       fail-fast: false
       matrix:
@@ -28,7 +28,7 @@ jobs:
     with:
       nodeVersion: ${{ matrix.nodeVersion }}
   code-coverage:
-    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/node-test-coverage.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
     needs:
       - lint
       - build
@@ -36,7 +36,7 @@ jobs:
     secrets:
       codecovToken: ${{ secrets.CODECOV_TOKEN }}
   release:
-    uses: vidavidorra/.github/.github/workflows/release.yml@9a03cc3ef08c5f04e5738be56846d9dcec487079 # v5.0.58
+    uses: vidavidorra/.github/.github/workflows/release.yml@6acd8332345b13bdb6191f220382e064bd32c8fd # v5.0.59
     needs:
       - lint-commit-messages
       - lint
