@@ -1,6 +1,6 @@
 {
   "name": "commitlint-plugin-function-rules",
-  "version": "4.0.2",
+  "version": "4.1.0",
   "description": "commitlint plugin to use functions as rule value",
   "keywords": [
     "commitlint",

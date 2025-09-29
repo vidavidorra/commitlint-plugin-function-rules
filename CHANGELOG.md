@@ -1,3 +1,9 @@
+## [4.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.2...v4.1.0) (2025-09-29)
+
+### Features
+
+- **deps:** update commitlint monorepo to v20 (major) ([#244](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/244)) ([dd4957c](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/dd4957c8ad3c9ccc34305ed99a51b5fc09c8afd1)), closes [#243](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/243)
+
 ## [4.0.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.1...v4.0.2) (2025-05-29)
 
 ### Continuous Integration
