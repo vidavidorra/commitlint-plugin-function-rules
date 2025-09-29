@@ -2,6 +2,8 @@ import {type RuleOutcome} from '@commitlint/types';
 import test from 'ava';
 import load19x from '@commitlint/load-19.x';
 import lint19x from '@commitlint/lint-19.x';
+import load20x from '@commitlint/load-20.x';
+import lint20x from '@commitlint/lint-20.x';
 import {rules} from './rules.js';
 import * as plugin from './index.js';
 
@@ -12,6 +14,7 @@ test('exports rules', (t) => {
 /* eslint-disable @typescript-eslint/naming-convention */
 const versions = {
   '19.x': {load: load19x, lint: lint19x},
+  '20.x': {load: load20x, lint: lint20x},
 } as const;
 /* eslint-enable @typescript-eslint/naming-convention */
 
@@ -32,6 +35,7 @@ const loadPlugin = test.macro<[keyof typeof versions]>({
 });
 
 test(loadPlugin, '19.x');
+test(loadPlugin, '20.x');
 
 const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
   async exec(t, version) {
@@ -77,3 +81,4 @@ const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
 });
 
 test(lintUsingPluginRules, '19.x');
+test(lintUsingPluginRules, '20.x');

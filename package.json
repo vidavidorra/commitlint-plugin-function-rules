@@ -188,8 +188,10 @@
     "@ava/typescript": "6.0.0",
     "@commitlint/cli": "20.0.0",
     "@commitlint/config-conventional": "20.0.0",
-    "@commitlint/lint-19.x": "npm:@commitlint/lint@20.0.0",
-    "@commitlint/load-19.x": "npm:@commitlint/load@20.0.0",
+    "@commitlint/lint-19.x": "npm:@commitlint/lint@19.8.1",
+    "@commitlint/load-19.x": "npm:@commitlint/load@19.8.1",
+    "@commitlint/lint-20.x": "npm:@commitlint/lint@20.0.0",
+    "@commitlint/load-20.x": "npm:@commitlint/load@20.0.0",
     "@commitlint/rules": "20.0.0",
     "@commitlint/types": "20.0.0",
     "@semantic-release/changelog": "6.0.3",
@@ -207,7 +209,7 @@
     "xo": "1.2.2"
   },
   "peerDependencies": {
-    "@commitlint/lint": ">=19 <20"
+    "@commitlint/lint": ">=19 <21"
   },
   "engines": {
     "node": ">=20"
