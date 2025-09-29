@@ -6,9 +6,7 @@
       "description": "Disable updates for aliased commitlint packages with a final version",
       "matchDepTypes": ["devDependencies"],
       "enabled": false,
-      "matchPackageNames": [
-        "/^@commitlint/(lint|load)\\-(9|10|11|12|13|14|15|16|17)\\.x/"
-      ]
+      "matchPackageNames": ["/^@commitlint/(lint|load)\\-(19)\\.x/"]
     },
     {
       "description": "Group commitlint peer dependencies as feat commit",
