@@ -207,7 +207,7 @@
     "xo": "1.2.2"
   },
   "peerDependencies": {
-    "@commitlint/lint": ">=19 <20"
+    "@commitlint/lint": ">=19 <21"
   },
   "engines": {
     "node": ">=20"
