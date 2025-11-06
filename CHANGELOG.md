@@ -1,3 +1,9 @@
+## [4.1.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.1.0...v4.1.1) (2025-11-06)
+
+### Continuous Integration
+
+- add minimal GitHub Action permissions ([e812983](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/e81298390559978767eaafccd8aeb3964cadc74e))
+
 ## [4.1.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.0.2...v4.1.0) (2025-09-29)
 
 ### Features
