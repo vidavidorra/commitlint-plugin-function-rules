@@ -33,8 +33,6 @@ jobs:
       - lint
       - build
       - test
-    secrets:
-      codecovToken: ${{ secrets.CODECOV_TOKEN }}
   release:
     uses: vidavidorra/.github/.github/workflows/release.yml@06f357a271f8bc7c0bc61cf27ec8cdb4ec9c9d26 # v8.0.0
     needs:
@@ -45,4 +43,3 @@ jobs:
       - code-coverage
     secrets:
       privateKey: ${{ secrets.RELEASE_PRIVATE_KEY }}
-      npmToken: ${{ secrets.NPM_PUBLISH_TOKEN }}
