@@ -9,6 +9,7 @@ const rules: Plugin['rules'] = {
   'function-rules/body-max-length': functionRule,
   'function-rules/body-max-line-length': functionRule,
   'function-rules/body-min-length': functionRule,
+  'function-rules/breaking-change-exclamation-mark': functionRule,
   'function-rules/footer-empty': functionRule,
   'function-rules/footer-leading-blank': functionRule,
   'function-rules/footer-max-length': functionRule,
