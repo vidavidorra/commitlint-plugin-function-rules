@@ -1,3 +1,9 @@
+## [4.2.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.1.1...v4.2.0) (2025-12-08)
+
+### Features
+
+- add `breaking-change-exclamation-mark` rule ([15dc738](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/15dc73802d7bfaec449058f1148c507935dc3af9))
+
 ## [4.1.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.1.0...v4.1.1) (2025-11-06)
 
 ### Continuous Integration
