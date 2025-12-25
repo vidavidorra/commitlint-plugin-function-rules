@@ -1,3 +1,10 @@
+## [4.2.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.2.0...v4.2.1) (2025-12-25)
+
+### Continuous Integration
+
+- replace semantic-release config with `@vidavidorra/semantic-release-config` ([cdca1bf](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/cdca1bf85c54d11617a1d44e6c4661eb67c760c3))
+- use ESLint for linting, instead of XO (which uses ESLint internally) ([ee68c28](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/ee68c28ff147395c502f2b6d4aa04adf7948deac))
+
 ## [4.2.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.1.1...v4.2.0) (2025-12-08)
 
 ### Features
