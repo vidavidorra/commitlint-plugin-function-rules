@@ -22,6 +22,7 @@ const rules: Plugin['rules'] = {
   'function-rules/header-trim': functionRule,
   'function-rules/references-empty': functionRule,
   'function-rules/scope-case': functionRule,
+  'function-rules/scope-delimiter-style': functionRule,
   'function-rules/scope-empty': functionRule,
   'function-rules/scope-enum': functionRule,
   'function-rules/scope-max-length': functionRule,
