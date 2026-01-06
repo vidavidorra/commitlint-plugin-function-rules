@@ -1,3 +1,9 @@
+## [4.3.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.2.1...v4.3.0) (2026-01-06)
+
+### Features
+
+- **rules:** add `scope-delimiter-style` rule for commitlint v20.3.0 ([c51a081](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/c51a0810a7a6fec667e59de9032e42794618c268))
+
 ## [4.2.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.2.0...v4.2.1) (2025-12-25)
 
 ### Continuous Integration
