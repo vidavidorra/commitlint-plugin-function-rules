@@ -37,6 +37,16 @@ const loadPlugin = test.macro<[keyof typeof versions]>({
 test(loadPlugin, '19.x');
 test(loadPlugin, '20.x');
 
+/**
+ * The type of the `RulesConfig` have changed in [commitlint v20.3.1](
+ * https://github.com/conventional-changelog/commitlint/releases/tag/v20.3.1),
+ * and are no longer compatible with those from v19. Specifically the types of
+ * the `scope-case` and `scope-enum` rules have been changed to also accept a
+ * rule object. While the individual versions are able process this test without
+ * runtime or type errors, the combined signature causes type errors. To keep
+ * the test, a relatively long one, the same for both versions, the type of the
+ * rule config is cast.
+ */
 const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
   async exec(t, version) {
     // eslint-disable-next-line @typescript-eslint/await-thenable
@@ -52,6 +62,7 @@ const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
       for await (const config of configs) {
         const report = await versions[version].lint(
           'chore: basic commit message',
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
           {
             [rule]: [
               2,
@@ -60,7 +71,7 @@ const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
                 ? async () => config.ruleOutcome
                 : () => config.ruleOutcome,
             ],
-          },
+          } as unknown as any,
           {plugins: {'function-rules': plugin}},
         );
 
