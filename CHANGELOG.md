@@ -1,3 +1,9 @@
+## [4.3.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.0...v4.3.1) (2026-01-13)
+
+### Tests
+
+- add test compatibility for combined v19 and v20 lint test ([3ac6c6c](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/3ac6c6c0a323c15be398666a0f514da9621bb838))
+
 ## [4.3.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.2.1...v4.3.0) (2026-01-06)
 
 ### Features
