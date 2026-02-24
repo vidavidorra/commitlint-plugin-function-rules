@@ -26,7 +26,10 @@ const loadPlugin = test.macro<[keyof typeof versions]>({
      * configuration.
      */
     await t.notThrowsAsync(
-      versions[version].load({plugins: [plugin]}, {file: 'package.json'}),
+      versions[version].load(
+        {plugins: [plugin as unknown as any]},
+        {file: 'package.json'},
+      ),
     );
   },
   title(_, version) {
@@ -36,6 +39,10 @@ const loadPlugin = test.macro<[keyof typeof versions]>({
 
 test(loadPlugin, '19.x');
 test(loadPlugin, '20.x');
+
+test('@commitlint/load@19.xx can load the plugin', async (t) => {
+  await t.notThrowsAsync(load20x({plugins: [plugin]}, {file: 'package.json'}));
+});
 
 /**
  * The type of the `RulesConfig` have changed in [commitlint v20.3.1](
@@ -72,7 +79,8 @@ const lintUsingPluginRules = test.macro<[keyof typeof versions]>({
                 : () => config.ruleOutcome,
             ],
           } as unknown as any,
-          {plugins: {'function-rules': plugin}},
+          // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+          {plugins: {'function-rules': plugin as unknown as any}},
         );
 
         const message = `rule "${rule}" can't be used by commitlint`;
