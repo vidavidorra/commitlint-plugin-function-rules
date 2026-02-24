@@ -1,3 +1,9 @@
+## [4.3.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.1...v4.3.2) (2026-02-24)
+
+### Bug Fixes
+
+- **deps:** update commitlint monorepo ([#256](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/256)) ([0e7ad5b](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/0e7ad5b9c4e79ba3ceb59f6be8755564c9817f6e))
+
 ## [4.3.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.0...v4.3.1) (2026-01-13)
 
 ### Tests
