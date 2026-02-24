@@ -12,7 +12,7 @@ test('calls an implementation fuction once', async (t) => {
 test('passes arguments to an implementation function', async (t) => {
   const implementation = fake();
   const commit = {type: 'test'};
-  await functionRule(commit as Commit, 'always', implementation);
+  await functionRule(commit as unknown as Commit, 'always', implementation);
   t.deepEqual(implementation.firstCall.args, [commit, 'always']);
 });
 

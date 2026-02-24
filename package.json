@@ -60,11 +60,6 @@
       "text-summary"
     ]
   },
-  "overrides": {
-    "@commitlint/config-conventional": {
-      "conventional-changelog-conventionalcommits": ">=9.0.0"
-    }
-  },
   "devDependencies": {
     "@ava/typescript": "6.0.0",
     "@commitlint/cli": "20.4.2",
