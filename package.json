@@ -71,7 +71,7 @@
     "@commitlint/rules": "20.4.2",
     "@commitlint/types": "20.4.0",
     "@types/sinon": "21.0.0",
-    "@vidavidorra/eslint-config": "1.0.3",
+    "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.6",
     "@vidavidorra/semantic-release-config": "1.0.4",
     "ava": "6.4.1",
