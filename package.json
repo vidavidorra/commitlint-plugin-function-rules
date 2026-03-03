@@ -74,7 +74,7 @@
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
     "@vidavidorra/semantic-release-config": "1.0.4",
-    "ava": "6.4.1",
+    "ava": "7.0.0",
     "c8": "11.0.0",
     "eslint": "9.39.3",
     "husky": "9.1.7",
