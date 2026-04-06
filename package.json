@@ -35,7 +35,7 @@
   },
   "prettier": "@vidavidorra/prettier-config",
   "release": {
-    "extends": "@vidavidorra/semantic-release-config"
+    "extends": "@vidavidorra/semantic-release-config/npm"
   },
   "ava": {
     "files": [
