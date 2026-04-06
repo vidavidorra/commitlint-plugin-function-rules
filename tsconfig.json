@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "module": "Node16",
-    "moduleResolution": "Node16",
+    "module": "node20",
+    "moduleResolution": "node16",
     "outDir": "dist",
+    "rootDir": "./src",
     "sourceMap": true,
     "strict": true,
-    "target": "ES2022"
+    "target": "es2024"
   },
   "include": ["src/**/*.ts"]
 }
