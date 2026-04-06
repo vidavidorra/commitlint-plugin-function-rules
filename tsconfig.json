@@ -5,9 +5,11 @@
     "moduleResolution": "node16",
     "outDir": "dist",
     "rootDir": "./src",
+    "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es2024"
+    "target": "es2024",
+    "types": ["node"]
   },
   "include": ["src/**/*.ts"]
 }
