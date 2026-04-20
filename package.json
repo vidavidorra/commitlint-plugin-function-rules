@@ -61,7 +61,7 @@
     ]
   },
   "devDependencies": {
-    "@ava/typescript": "6.0.0",
+    "@ava/typescript": "7.0.0",
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
     "@commitlint/lint-19.x": "npm:@commitlint/lint@19.8.1",
