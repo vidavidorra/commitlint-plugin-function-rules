@@ -1,3 +1,15 @@
+## [5.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.2...v5.0.0) (2026-05-16)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** require Node.js 22 minimum, which is the current active LTS.
+
+Add tests for commitlint v21, in addition to v19 and v20 at the moment.
+
+### Features
+
+- **deps:** update dependency @commitlint/lint to v21 ([#268](https://github.com/vidavidorra/commitlint-plugin-function-rules/issues/268)) ([34d21dd](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/34d21dd2292a4b5a024ac06c0506c3f3203abbed))
+
 ## [4.3.2](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.1...v4.3.2) (2026-02-24)
 
 ### Bug Fixes
