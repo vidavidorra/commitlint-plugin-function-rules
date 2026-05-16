@@ -7,7 +7,7 @@
       "matchDepTypes": ["devDependencies"],
       "enabled": false,
       "matchDatasources": ["npm"],
-      "matchDepNames": ["/^@commitlint/(lint|load)\\-(19)\\.x/"]
+      "matchDepNames": ["/^@commitlint/(lint|load)\\-(19|20)\\.x/"]
     },
     {
       "description": "Group commitlint peer dependencies as feat commit",
