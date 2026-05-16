@@ -44,10 +44,6 @@ test(loadPlugin, '19.x');
 test(loadPlugin, '20.x');
 test(loadPlugin, '21.x');
 
-test('@commitlint/load@19.xx can load the plugin', async (t) => {
-  await t.notThrowsAsync(load20x({plugins: [plugin]}, {file: 'package.json'}));
-});
-
 /**
  * The type of the `RulesConfig` have changed in [commitlint v20.3.1](
  * https://github.com/conventional-changelog/commitlint/releases/tag/v20.3.1),
