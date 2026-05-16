@@ -85,7 +85,7 @@
     "typescript": "6.0.3"
   },
   "peerDependencies": {
-    "@commitlint/lint": ">=19 <21"
+    "@commitlint/lint": ">=19 <22"
   },
   "engines": {
     "node": ">=20"
