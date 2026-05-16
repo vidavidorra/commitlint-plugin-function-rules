@@ -1,3 +1,9 @@
+## [5.0.1](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v5.0.0...v5.0.1) (2026-05-16)
+
+### Continuous Integration
+
+- remove CI/CD test for Node.js 20, which is deprecated now ([6baf872](https://github.com/vidavidorra/commitlint-plugin-function-rules/commit/6baf872bc845a4691b23f2cec98021bb65149201))
+
 ## [5.0.0](https://github.com/vidavidorra/commitlint-plugin-function-rules/compare/v4.3.2...v5.0.0) (2026-05-16)
 
 ### ⚠ BREAKING CHANGES
