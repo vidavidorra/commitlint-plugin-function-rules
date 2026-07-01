@@ -75,7 +75,7 @@
     "@types/sinon": "21.0.1",
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
-    "@vidavidorra/semantic-release-config": "2.0.2",
+    "@vidavidorra/semantic-release-config": "2.0.3",
     "ava": "8.0.1",
     "c8": "11.0.0",
     "eslint": "9.39.4",
