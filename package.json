@@ -72,7 +72,7 @@
     "@commitlint/load-21.x": "npm:@commitlint/load@21.2.0",
     "@commitlint/rules": "21.2.0",
     "@commitlint/types": "21.2.0",
-    "@types/sinon": "21.0.1",
+    "@types/sinon": "22.0.0",
     "@vidavidorra/eslint-config": "1.0.4",
     "@vidavidorra/prettier-config": "1.0.7",
     "@vidavidorra/semantic-release-config": "2.0.3",
